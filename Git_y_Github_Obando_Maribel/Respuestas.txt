@@ -1,7 +1,7 @@
 1.¿Quién inventó el sistema de control de vion Git y por que?
 R/Fue inventado por Linus Torvalds pensando en la eficiencia, la confiabilidad, y la compatibilidad del mantenimiento de versiones de aplicaciones
 2. ¿Aquien pertenece actualmente Github y por que?
-R/ El 4 de junio de 2018 Microsoft compró GitHub por la cantidad de 7500 millones de dolares por seruno de los software de control de versiones  mas popular del mundo con fuentes de codigo abierto mas relevante
+R/ El 4 de junio de 2018 Microsoft compró GitHub por la cantidad de 7500 millones de dolares por ser uno de los software de control de versiones  mas popular del mundo con fuentes de codigo abierto mas relevante
 3.¿Hay otra forma que no sea la terminal para trabajar con Github?
 R/ Existen otras maneras para trabajar en la terminal usando aplicaciones como gitkraken o desktop github
  
