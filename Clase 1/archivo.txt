@@ -1,9 +1,13 @@
 <html>
     <head><title> Home</title></head>
 
-    <body> <h3>Bienvenidos </h3></body>
+    <body> <h3>Bienvenidos </h3>
+    
+    Hola como estas?
+    
+    </body>
 
 
 
 </html>
-Hola como estas?
+
