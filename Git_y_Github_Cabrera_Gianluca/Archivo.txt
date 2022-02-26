@@ -1,0 +1,8 @@
+a) Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad
+del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+
+b)El 4 de junio de 2018 Microsoft compró GitHub con el proposito de una estrategia nueva, 
+mucho más abierta al mundo del software libre y a la integración con otras plataformas y servicios.
+Lo compro por la gran cantidad de usuario y por ser un almacen de codigo.
+
+c)Si se puede trabajar con GUI o a traves de la pagina
