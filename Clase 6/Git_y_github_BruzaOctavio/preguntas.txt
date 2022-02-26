@@ -7,3 +7,5 @@ El 4 de junio de 2018 Microsoft compró GitHub por la cantidad de 7500 millones 
 ¿Hay otra forma que no sea la terminal para trabajar con Github?
 
 Si, hay otras formas de trabajar que no sea la terminal, como por ejemplo Gitkraken y GitHub Desktop
+
+-
