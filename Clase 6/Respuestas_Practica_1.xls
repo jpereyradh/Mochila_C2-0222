@@ -1,0 +1,7 @@
+a. ¿Quién inventó el sistema de control de versión Git y por qué?
+GitHub es una plataforma de alojamiento, propiedad de Microsoft, que ofrece a los desarrolladores la posibilidad de crear repositorios de código y guardarlos en la nube de forma segura, usando un sistema de control de versiones, llamado Git
+Creado por Tom-Preston-Werner,Chris Wanstrath,P. J. Hyett,Scott Chacon
+b. ¿A quién pertenece actualmente Github y por qué?
+El 4/6/2018 Microsoft adquirio GitHub, y lo hace por 7.500 millones de dólares 
+c. ¿Hay otra forma que no sea la terminal para trabajar con Github?
+Gitlab,SourceForge,CloudeSourceRepositories,Gitkraken,ApacheAllura
