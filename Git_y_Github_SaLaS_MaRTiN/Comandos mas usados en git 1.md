@@ -27,10 +27,7 @@ Git checkout (nombre de rama)
 
 > ## Volver a un commit anterior
 
-1. Git checkout <commit-id> .
+1. Git checkout (commit-id) .
 2. Git add .
 3. Git commit -m “Revirtiendo cambios”
 4. Git push 
-
-
-
