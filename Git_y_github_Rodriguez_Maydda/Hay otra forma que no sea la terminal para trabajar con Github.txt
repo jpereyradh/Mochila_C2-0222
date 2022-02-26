@@ -1,0 +1,1 @@
+Se puede trabajar en GitHub se puede trabajar desde la terminal y desde el aplicativo de GitHub a través de interfaz para crear un repositorio.

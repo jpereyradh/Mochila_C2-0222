@@ -1,0 +1,3 @@
+Git es un sistema de control de versiones distribuido creado por Linus Torvalds en 2005 y que actualmente es usado en la gran mayoría de grandes desarrollos, como el del kernel de Linux, o el sistema operativo Windows.
+Lo impulsó desarrollar su propia herramienta basada en algunas de las lecciones que aprendieron mientras usaban BitKeeper, cuyos objetivos fueron Velocidad, Diseño sencillo, Gran soporte para desarrollo no lineal, Complementamente distribuido y Capaz de manejar grandes proyectos.
+
