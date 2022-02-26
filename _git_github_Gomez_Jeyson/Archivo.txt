@@ -1,0 +1,11 @@
+¿Quien Invento El Sistema De Control De Version Git y Porque?
+
+-Linus Torvalds Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.
+
+¿A Quien Pertenece Actualmente Github y Por Que?
+
+-Pertenece a Microsot mantendrá su distintivo enfoque de anteponer a los desarrolladores y seguirá operando de forma independiente para ofrecer una plataforma abierta a todos los desarrolladores e industrias
+
+¿Hay Otra Forma Que No Sea La Terminal Para Trabajar Con GitHub?
+
+-Git UI, Git Bash.
