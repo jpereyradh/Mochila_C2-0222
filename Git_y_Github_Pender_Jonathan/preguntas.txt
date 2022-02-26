@@ -1,0 +1,6 @@
+a. ¿ Quien invento el sistema de control de verison Git y por que?
+Le genial plataforma GitHub fue creada por Chris Wanstrath , PJ Hyett , Tom Preston-Werner y Scott Chacon ayá por Febrero de 2008 en San Francisco – EEUU y hasta la fecha sigue estando ubicada en el mismo lugar. La plataforma te permite trabajar llevando un control de las versiones de tu proyecto.
+b ¿ A quien pertenece actualmente github y por que?
+El 4 de Junio de 2018 Microsoft anuncia que hizo un acuerdo con Github para comprarlo por 7.5 mil millones de dolares, esta compra se cierra el 26 de Octubre de 2018. El 28 de Febrero de 2018 Github sufre un ataque DDoS, el segundo mayor ataque en su historia, sufrió un pico de trafico de 1.35 terabits por segundo.
+c ¿ Hay otra forma que no sea la terminal para trabajar con Github y por que?
+Existen muchas formas de usar Git. Por un lado tenemos las herramientas originales de línea de comandos, y por otro lado tenemos una gran variedad de interfaces de usuario con distintas capacidades
