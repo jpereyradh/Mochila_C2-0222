@@ -1,0 +1,62 @@
+COMANDOS MAS UTILIZADOS
+
+1 - GIT CLONE:
+ 
+git clone <https://link-con-nombre-del-repositorio>
+
+Sirve para descargarte el código fuente existente desde un repositorio remoto (como Github, por ejemplo)
+En otras palabras, Git clone básicamente realiza una copia idéntica de la última versión de un proyecto en un
+repositorio y la guarda en tu ordenador.
+
+2 - GIT BRANCH:
+
+git branch <nombre-de-la-rama>
+
+Se utiliza para crear varias ramas para varios desarrolladores pueden trabajar en paralelo
+en el mismo proyecto simultáneamente. Podemos usar el comando git branch para crearlas, listarlas y eliminarlas.
+ 
+3 - GIT CHECKOUT:
+
+git checkout <nombre-de-la-rama>
+
+Se usa principalmente para cambiarte de una rama a otra. También lo podemos usar para chequear archivos y commits.
+
+4 - GIT STATUS:
+
+git status
+
+El comando de git status nos da toda la información necesaria sobre la rama actual.
+
+5 - GIT ADD:
+
+git add .
+
+Guarda los cambios pero estos cambios suceden en local y no se incluirán en el siguiente commit a menos que cambiemos la configuració..
+
+6 - GIT COMMIT:
+
+git commit -m "mensaje de confirmación"
+
+Es como establecer un punto de control en el proceso de desarrollo al cual puedes volver más tarde si es necesario
+queremos guardar nuestros cambios quizás después de una tarea o asunto específico.
+
+7 - GIT PUSH:
+
+git push <nombre-remoto> <nombre-de-tu-rama>
+
+Después de teminar los  cambios, el siguiente paso es enviar tus cambios al servidor remoto
+Git push envía tus commits al repositorio remoto.
+
+8 - GIT PULL:
+
+git pull <nombre-remoto>
+
+se utiliza para recibir actualizaciones del repositorio remoto 
+significa que cundo usemos el git pull recogeremos actualizaciones del repositorio remoto
+
+9 - GIT MERGE
+
+git merge <nombre-de-la-rama>
+
+Es fusionar la rama con su rama padre (dev o master). Esto se hace con el comando
+integra las características de tu rama con todos los commits realizados a las ramas dev (o master)
