@@ -1,0 +1,13 @@
+Crear un repositorio --> $ git init
+Verificar el estado de los archivos/repositorios --> $ git status
+añadir todos los archivos --> $ git add .
+Commitear un archivo/repositorio --> $ git commit -m "nombre del commit"
+Remover archivo/directorio --> $ git rm archivo
+                           --> $ git rm -r directorio
+Ver el historia de la actividad --> $ git log 
+Clonar un repositorio existente --> $ git clone git@github.com:nombre/archivo-git.git
+Actualizar un repositorio local segun el repositorio remoto --> $ git pull origin main
+Enviar actualizacion --> $ git push origin main/rama
+Crear una Rama --> $ git branch Nombre_rama
+Moverme a la Rama --> $ git checkout Nombre_rama
+
