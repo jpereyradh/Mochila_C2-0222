@@ -1,0 +1,10 @@
+Preguntas
+1)	1) MOMENTO 1 PASO 8: ¿Qué paso con el directorio db?
+El directorio db fue commiteado
+2)	2) MOMENTO 2 PASO 6: ¿Se guardo lo importante?
+No, justamente lo que no se guardo fue lo importante ya que el archivo app.js fue modificado y quedo fuera del commit.
+3)	3) MOMENTO 4 PASO 1: ¿Esta bien el nombre del commit?
+No, el nombre del commit no está bien porque no se está especificando que parte del commit se está guardando, no le sirve a mi equipo ni es explícito. 
+4)	4) MOMENTO 5 PASO 3: ¿Qué hace este paso?
+Este paso, lo que hace es resetear lo que ya hicimos en el commit, es decir lo elimina para arrancar de nuevo. 
+5)	5) MOMENTO 5 PASO 6: ¿Qué pasó acá? Acá eliminamos el archivo config.js del commit.
