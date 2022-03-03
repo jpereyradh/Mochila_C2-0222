@@ -1,0 +1,22 @@
+RESPUESTA
+A_ ¿Quien invento el sistema de control de version Git y porque?
+<nes que aprendieron mientras usaban BitKeeper. Algunos de los objetivos del nuevo sistema fueron los siguientes:
+
+Velocidad
+
+Diseño sencillo
+
+Gran soporte para desarrollo no lineal (miles de ramas paralelas)
+
+Completamente distribuido
+
+Capaz de manejar grandes proyectos (como el kernel de Linux) eficientemente (velocidad y tamaño de los datos)
+
+Desde su nacimiento en el 2005, Git ha evolucionado y madurado para ser fácil de usar y conservar sus características iniciales. Es tremendamente rápido, muy eficiente con grandes proyectos y tiene un increíble sistema de ramificación (branching) para desarrollo no linea
+
+B_ ¿A quien pertenece actualmente Github y porque?
+ Pertenece a Microsoft, este mismo asegura que GitHub mantendrá su distintivo enfoque de anteponer a los desarrolladores y seguirá operando de forma independiente para ofrecer una plataforma abierta a todos los desarrolladores e industrias.
+
+C_ ¿Hay otra forma que no sea la terminal para trabajar en con Github?
+ no se puede ya que necesitamos una terminal para poder acceder a los repositorios y añadir ya sea archivos o carpeta
+
