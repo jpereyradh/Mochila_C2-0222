@@ -15,7 +15,7 @@ Git Branch (nombre de rama)
 Git Branch -d (nombre de rama)
 Git Branch -D (nombre de rama) *SI no esta fusionada completamente
 ### Borra una rama remota
-Git push origin –delete (nombre de la rama)
+Git push origin --delete (nombre de la rama)
 ### Listas ramas locales
 Git Branch
 ### Listar ramas remotas
