@@ -1,0 +1,10 @@
+
+Hardware
+entrada - Mouse teclado 
+salida - Monitor
+internos - placa base, tarjeta gráfica
+
+Software
+sistemas - Sistema Operativo 
+programación - Editores de texto, software que crean otros software
+aplicación - navegador, reproductor de música, juegos
