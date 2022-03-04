@@ -1,0 +1,4 @@
+Interfaces de usuario (UI)      La interfaz de usuario es el espacio donde se producen las interacciones entre seres humanos y máquinas. El objetivo de esta interacción es permitir el funcionamiento y control más efectivo del sistema informático desde la interacción con el humano.
+Interfaz de linea de comandos (CLI)  Solo presentan texto. Consola
+Interfaz grafica de usuario (GUI)     Permiten comunicarse de forma rápida e intuitiva representando gráficamente los elementos de control.
+Interfaz nativa de usuario (NUI)  Incorpora el procesamiento de estímulos visuales/auditivos/ kineticos para generar respuestas
