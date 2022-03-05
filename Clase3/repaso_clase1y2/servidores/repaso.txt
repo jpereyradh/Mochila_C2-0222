@@ -1,0 +1,14 @@
+Un servidor es un conjunto de computadoras capaz de atender las peticiones de un cliente y devolverle una respuesta en concordancia.
+Servidor web
+
+Almacena documentos HTML, imágenes, archivos de texto, escrituras, y demás material web compuesto por datos (conocidos colectivamente como contenido) y distribuye este contenido a clientes que lo piden en la red.
+
+Servidor de base de datos
+
+Provee servicios de base de datos a otros programas u otras computadoras, como es definido por el modelo cliente-servidor. También puede hacer referencia a aquellas computadoras (servidores) dedicadas a ejecutar esos programas, prestando el servicio.
+
+
+Servidor de archivos
+
+Es el que almacena varios tipos de archivos y los distribuye a otros clientes en la red.
+
