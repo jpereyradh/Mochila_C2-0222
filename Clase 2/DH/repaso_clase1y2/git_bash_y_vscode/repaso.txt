@@ -1,4 +1,0 @@
-Git Bash: Es una aplicación de terminal que se utiliza como interfaz con un sistema operativo mediante comandos escritos. 
-
-
-Visual Studio Code: Es un entorno de desarrollo integrado desarrollado por MIcrosoft, diseñado para la creación y desarrollo de programas y apps. 

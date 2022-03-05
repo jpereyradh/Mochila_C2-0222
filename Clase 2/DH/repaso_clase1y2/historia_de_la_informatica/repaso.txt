@@ -1,2 +1,0 @@
-La historia de la informatica cuenta el desarrollo de la computadora a traves de los años, en dónde se resalta inventores como:
-Pascal con la creación de la calculadora mecánica, Joseph Jacquard con el telar mecanico, Babbage con la primera computadora la maquina de diferencias, Ada Lovelace con el primer algoritmo considerada la primera programadora, Alan Turing y la maqina de Turing, Las chicas refrigerador con la primera PC ENIAC y Jhon von Neuman qien describe la arquitectura de diseño de un computador. 
