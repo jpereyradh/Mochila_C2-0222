@@ -1,0 +1,37 @@
+Microdesafíos - Mesa IX
+Para poner en práctica los conocimientos adquiridos en este átomo, necesitarás previamente
+realizar la siguiente actividad.
+1. Hacer una copia de la tabla base en donde puedan trabajar la ejercitación para llegar a
+los resultados solicitados.
+
+Enunciado:
+Nuestro grupo de amigos adquirió una PSP con un disco de 6GB y queremos instalarle la
+mayor cantidad de juegos posibles de una lista de 15 juegos que armamos entre todos.
+
+1,5 GB   -   Midnight Club 3: DUB Edition 
+1,21 GB  -   FIFA 12 
+1,2 GB   -   God Of War: Chains Of Olympus
+1,2 GB   -   Grand Theft Auto: Vice City Stories 
+975 MB   -   PES 2013 
+834 MB   -   Crash Tag Team Racing 
+752 MB   -   MotorStorm Artic Edge
+682 MB   -   Burnout Dominator 
+663 MB   -   Metal Slug Anthology 
+491,4 MB -   Driver
+363 MB   -   Resident Evil 3: Nemesis 
+121 MB   -   Need For Speed Carbon 
+78,2 MB  -   Street Fighter 3 Alpha Max 
+49,8 MB  -   Coded Arms 
+2 MB     -   Plants vs. Zombies
+
+
+Respuesta:
+Máximo 9 juegos. Si queremos instalarle la mayor cantidad de los juegos vamos sumando el peso desde el menor a mayor.
+
+
+
+
+
+
+
+
