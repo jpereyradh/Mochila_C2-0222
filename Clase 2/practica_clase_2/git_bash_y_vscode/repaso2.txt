@@ -1,0 +1,2 @@
+gitbash nos permite una comunicacion mas directa y rapida con la computadora.
+vscode es un ide (entorno de desarrollo integrado) que nos permite agilizar nuestro codigo

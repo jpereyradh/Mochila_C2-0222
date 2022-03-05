@@ -1,0 +1,2 @@
+Hardware se trata de todos los elementos fisicos de la computadora.
+software son los programas que se ejecutan sobre el hardware.

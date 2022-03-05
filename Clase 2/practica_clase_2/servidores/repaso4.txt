@@ -1,0 +1,1 @@
+almacena recursos (archivos,datos,servicios,etc) y se encarga de procesar los pedidos de los usuarios y dar respuestas.

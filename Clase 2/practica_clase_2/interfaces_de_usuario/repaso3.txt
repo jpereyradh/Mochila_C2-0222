@@ -1,0 +1,1 @@
+se trata de los diferentes tipos de comunicacion que podemos tener con la maquina. cli o lineas de comandos, gui (graphic user interface) y cognitiva.
