@@ -1,0 +1,2 @@
+Git Bash es una aplicacion de terminal que se utiliza como interfaz con un sistema operativo mediante comandos escritos (CLI)
+En cambio VSCode es un IDE (Entorno de Desarrollo integrado) desarrollado por Microsoft
