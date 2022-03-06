@@ -1,10 +1,2 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Clase Repaso
-=======
 Este es el archivo de la clase 3 - Octavio
 Archivo de la clase 3
->>>>>>> 8d3afb172f6af0c5710749b89db176221c91bcfd
-=======
-Este es un conflicto.
->>>>>>> Rodriguez_Maydda
