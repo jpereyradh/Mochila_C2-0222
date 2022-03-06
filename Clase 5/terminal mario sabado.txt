@@ -1,0 +1,139 @@
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro (main)
+$ git clone https://github.com/monledez/Intro_practica5~
+Cloning into 'Intro_practica5~'...
+fatal: unable to access 'https://github.com/monledez/Intro_practica5~/': The requested URL returned error: 400
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro (main)
+$ git clone https://github.com/monledez/Intro_practica5                                     
+Cloning into 'Intro_practica5'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro (main)
+$ ls
+Intro_practica5/
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro (main)
+$ cd Intro_practica5/
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ ls
+README.md
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ touch mariouno.txt mariodos.txt mariotres.txt
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ ls
+mariodos.txt  mariotres.txt  mariouno.txt  README.md
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ nano mariouno.txt
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ cat mariouno.txt
+este es el primero
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ nano mariodos.txt
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ nano mariotres.txt
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ git add .
+warning: LF will be replaced by CRLF in mariodos.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in mariotres.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in mariouno.txt.
+The file will have its original line endings in your working directory
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ git commit -m "commit de mario"
+[main 517cd12] commit de mario
+ 3 files changed, 3 insertions(+)
+ create mode 100644 mariodos.txt
+ create mode 100644 mariotres.txt
+ create mode 100644 mariouno.txt
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ git pull origin main
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 507 bytes | 19.00 KiB/s, done.
+From https://github.com/monledez/Intro_practica5
+ * branch            main       -> FETCH_HEAD
+   b76ca90..438fe27  main       -> origin/main
+Merge made by the 'ort' strategy.
+ camisa.txt   | 1 +
+ pantalon.txt | 1 +
+ sudadera.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 camisa.txt
+ create mode 100644 pantalon.txt
+ create mode 100644 sudadera.txt
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 753 bytes | 188.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/monledez/Intro_practica5
+   438fe27..940d9e7  main -> main
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ git remote -v
+origin  https://github.com/monledez/Intro_practica5 (fetch)
+origin  https://github.com/monledez/Intro_practica5 (push)
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), 275 bytes | 16.00 KiB/s, done.
+From https://github.com/monledez/Intro_practica5
+   940d9e7..b8e4e90  main       -> origin/main
+Updating 940d9e7..b8e4e90
+Fast-forward
+ lilianados.txt  | 0
+ lilianatres.txt | 0
+ lilianuno.txt   | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lilianados.txt
+ create mode 100644 lilianatres.txt
+ create mode 100644 lilianuno.txt
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$ ls
+camisa.txt      lilianatres.txt  mariodos.txt   mariouno.txt  README.md
+lilianados.txt  lilianuno.txt    mariotres.txt  pantalon.txt  sudadera.txt
+
+Usuario@DESKTOP-140AV2P MINGW64 ~/DIGITALHOUSE/clase 5 intro/Intro_practica5 (main)
+$
