@@ -13,11 +13,11 @@ touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" "Titanic.
 3-)Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de 
 la carpeta Romanticas en un solo comando y escribirlo aquí. 
 
-mkdir Prueba Peliculas/Romanticas
+mkdir ./Peliculas/Romanticas/Prueba
 
 4-)Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2
 dentro de la carpeta Accion.
 
-mkdir Prueba2 ../Accion
+mkdir ../Accion/Prueba2
 
 
