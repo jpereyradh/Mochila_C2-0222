@@ -1,5 +1,100 @@
-<<<<<<< HEAD
-Emanuel bertone
-=======
-Hola Jorgito!!! Como estas?
->>>>>>> 928ea05bf5801614a024f0a6a4ebb34237552f1c
+Momento 1
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta (main)
+$ mkdir Ecmommerce
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta (main)
+$ cd Ecommerce
+bash: cd: Ecommerce: No such file or directory
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta (main)
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta (main)
+$ mkdir Ecommerce
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta (main)
+$ cd Ecommerce
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ touch app.js config.js
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ mkdir db
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ git init
+Initialized empty Git repository in C:/Users/USUARIO/Desktop/DH/Nueva carpeta/Ecommerce/.git/
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ git add .
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ git commit -m 'Primer commit'
+[main (root-commit) 2513897] Primer commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 app.js
+ create mode 100644 config.js
+
+Momento 2
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ cd db
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce/db (main)
+$ touch producto_db.js carrito_db.js
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce/db (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ nano app.js
+Error in /etc/nanorc on line 237: Error expanding /usr/share/nano/*.nanorc: No such file or directory  
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ git commit -m 'Guardando lo importante'
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        db/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Momento 3
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ git add .
+warning: LF will be replaced by CRLF in app.js.
+The file will have its original line endings in your working directory
+
+Momento 4
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ git commit -m 'Guardando una parte del proyecto'
+[main 2fb0997] Guardando una parte del proyecto
+ 3 files changed, 1 insertion(+)
+ create mode 100644 db/carrito_db.js
+ create mode 100644 db/producto_db.js
+
+Momento 5
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce (main)
+$ cd db
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce/db (main)
+$ rm producto_db.js
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce/db (main)
+$ git restore .
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce/db (main)
+$ rm ../config.js
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce/db (main)
+$ git add .
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Nueva carpeta/Ecommerce/db (main)
+$ git commit -m "Sacando la configuración'

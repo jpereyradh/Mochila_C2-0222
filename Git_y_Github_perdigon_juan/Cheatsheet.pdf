@@ -1,0 +1,74 @@
+La terminal, GIT Bash y VS Code
+
+Se tiene que conocer dónde estamos y hacia dónde vamos en el momento en que queremos dar órdenes a una máquina. Es necesario entender los siguientes conceptos: Ruta o dirección absoluta y ruta o dirección relativa. Una ruta absoluta nos indica con exactitud hacia dónde se quiere ir o se está. Por ejemplo mi ruta absoluta para mi carpeta informes que está dentro de mi escritorio es: 
+
+/Desktop/Informes
+
+ Si yo quiero ir a mi escritorio podría darle la orden a mi ordenador con cd y elegir mi escritorio o podría hacer uso de una ruta relativa de una forma mucho más veloz:
+
+../
+
+Los dos puntos y slash mi ordenador los entiende como ir hacia atrás, esto seria una ruta relativa. Por ejemplo si doy una dirección con izquierdas y derechas sin conocer la dirección exacta.
+
+Comando pwd (print working directory) muestra el lugar donde se está ubicado
+
+cd (change directory) nos permite cambiar de directorio a uno en particular
+
+Para conocer los elementos dentro de la ubicación donde estamos usamos ls (list) 
+
+mkdir (make directory) crear una carpeta
+
+rmdir (remove directory) elimina una carpeta siempre y cuando esta se encuentre vacía
+
+gedit crear y editar archivos de texto
+
+rm borrar archivos ( Creo que una carpeta con contenido se debe borrar de esta forma)
+
+rm -r borra carpetas con archivos
+
+cp Copiar un archivo o carpeta en el directorio especificado
+
+cp -R copiar carpetas 
+
+Lmv mover un archivo o carpeta a un archivo o carpeta
+
+ls-a muestra nuestros elementos y adicionalmente los elementos ocultos
+Dirección absoluta es una dirección concreta. 
+
+ls -t muestra una lista de elementos ordenados por fecha de modificación
+
+find permite buscar nombres de archivos o carpetas por nombre completo o similitudes de ciertas letras
+ 
+Usando find podemos utilizar el comando name para buscar por nombre del elemento o size para buscar por tamaño. También podemos usar grep para este propósito y sumarle -i para que no sea sensible a letras mayúsculas. Otro complemento de estos dos comandos es un simple .(punto) que nos permite conocer donde estamos ubicados. 
+
+
+mv nos permite mover o renombrar archivos 
+
+nano nos permite editar un archivo de texto, para guardar los cambios utilizamos ctrl+o y para volver a la terminal y cerrar el editor ctrl+x.
+
+clear nos limpia la terminal
+touch sirve para crear un archivo y seleccionamos cualquier extensión.
+
+cat lo utilizamos para ver el contenido de una archivo de texto
+
+Git y Github
+
+git init inicia un repositorio con las configuraciones de Git. Abre la posibilidad de revisar las versiones y evaluarlas en cada una de sus estados (Add,Modified,Deleted,Untracked). Si utilizamos el comando ls -a podremos ver unas carpetas ocultas entre ellas .git/. 
+
+Si  queremos  actualizar nuestro repositorio local hacemos git pull para traer la información actualizada. 
+
+git add nos permite desplazar a una categoría de añadido primeros o nuevos archivos así también como modificaciones para posteriormente utilizar git push y subirlos al repositorio de Git. Tendríamos la información actualizada en Git y localmente.
+
+
+Para importar todo un repositorio cuando no tenemos información de este a nivel local, utilizamos git clone “link del repositorio” 
+
+GitHub permite trabajar con ramas. Estas son versiones paralelas a la principal que permiten trabajar sin afectar la principal. Para crear una nueva rama utilizamos git branch “nombre de la nueva rama”. Para cambiar de rama en rama utilizamos git checkout “nombre de la rama a la que queremos ir”.
+
+Siempre para actualizar un repositorio, una rama, desde un nivel local debemos asegurarnos que nuestra información local esté igual de actualizada que nuestro repositorio o nuestra rama. PAra subir archivos nuevos o modificados seguimos los siguientes pasos:
+
+git pull para asegurarnos de actualizar nuestra información local.
+git add para añadir lo nuevo o los cambios.
+git pull envía la información a nuestro repositorio Git.
+
+Siempre podemos verificar el estatus de nuestros archivos y carpetas con git status
+

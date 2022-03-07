@@ -1,1 +1,240 @@
-Este es el archivo de la clase 3 - Octavio
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ mkdir Películas
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ cd Películas
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ mkdir Infantiles Accion Terror Comedia Romantica
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Infantiles
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ touch Intenzamente.txt 'El juego del miedo.txt' 'Rapido y furioso.pdf' Titanic.jpg
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Accion
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Accion (main)
+$ touch 'Smooth criminal.txt' 'Diario de una pasion.js' 'El hexorcista.xls' Cars.jpg
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Accion (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Terror
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Terror (main)
+$ touch 'La dama y el bagavundo.png' 'Yo anstes de ti.xls' 'Que paso ayer.pdf' 'We will rock you.js'
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Terror (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Comedia
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Comedia (main)
+$ touch Madagaskar.js 'Orgullo y prejuicio.txt' IT.xls 'Mision imposible.png'
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Comedia (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Romantica
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Romantica (main)
+$ touch Pocahontas.jpg Anabelle.js 'Los Vengadores.js' 'La mascara.js'
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Romantica (main)
+$ ../
+bash: ../: Is a directory
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Romantica (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ ls - R
+ls: cannot access '-': No such file or directory
+ls: cannot access 'R': No such file or directory
+
+Primera parte Bash
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romantica/  Terror/
+
+./Accion:
+ Cars.jpg                  'El hexorcista.xls'
+'Diario de una pasion.js'  'Smooth criminal.txt'
+
+./Comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.txt'  'Rapido y furioso.pdf'
+ Intenzamente.txt          Titanic.jpg
+
+./Romantica:
+ Anabelle.js  'La mascara.js'  'Los Vengadores.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'We will rock you.js'
+'Que paso ayer.pdf'           'Yo anstes de ti.xls'
+
+¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+Si,
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ mkdir Infantiles Accion Terror Comedia Romantica
+Si,
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ touch Intenzamente.txt 'El juego del miedo.txt' 'Rapido y furioso.pdf' Titanic.jpg
+¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+
+Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de
+la carpeta Romanticas en un solo comando y escribirlo aquí.
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ mkdir Películas/Romantica/Prueba
+
+Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2
+dentro de la carpeta Accion
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Romantica (main)
+$ mkdir ../Accion/Prueba2
+
+Segunda parte VS Code
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Accion
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Accion (main)
+$ mv Cars.jpg ../Infantiles
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Accion (main)
+$ mv 'Dairio de una pasion.js' ../Romantica
+mv: cannot stat 'Dairio de una pasion.js': No such file or directory
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Accion (main)
+$ mv 'Diario de una pasion.js' ../Romantica
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Accion (main)
+$ mv 'El hexorcista.xls' ../Terror
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Accion (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Comedia
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Comedia (main)
+$ mv IT.xls ../Terror
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Comedia (main)
+$ mv Madagaskar.js ../Infantiles
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Comedia (main)
+$ mv 'Mision imposible.png' ../Accion
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Comedia (main)
+$ mv 'Orgullo y prejuicio.txt' ../Romantica
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Comedia (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Infantiles
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ mv 'El juego del miedo.txt' ../Terror
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ mv 'Rapido y furioso.pdf' ../Accion
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ mv Titanic.jpg ../Romantica
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Romantica
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Romantica (main)
+$ mv Anabelle.js ../Terror
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Romantica (main)
+$ mv 'La mascara.js' ../Comedia
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Romantica (main)
+$ mv 'Los Vengadores.js' ../Accion
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Romantica (main)
+$ mv Pocahontas.jpg ../Infantiles
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Romantica (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd Terror
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Terror (main)
+$ mv 'La dama y el bagavundo.png' ../Infantiles
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Terror (main)
+$ mv 'Que paso ayer'.pdf ../Comedia
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Terror (main)
+$ mv 'El hexorcista.xls' 'El exorcista.xls'
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Terror (main)
+$ cd ../Infantiles
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ mv Intenzamente.txt Intensamente.txt
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ mv 'La dama y el bagavundo.png' 'La dama y el vagabundo'.png
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas/Infantiles (main)
+$ cd ../../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ rm Películas/Accion/'Smooth criminal.txt'
+rm: cannot remove 'Películas/Accion/Smooth criminal.txt': Permission denied
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ rm Películas/Terror/'We will rock you.js'
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ rm Películas/Accion/'Smooth criminal.txt'
+rm: cannot remove 'Películas/Accion/Smooth criminal.txt': Permission denied
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ mkdir Películas/Accion/Prueba2/noBorrar.js
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ cd Películas
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ mv Accion/Prueba2/noBorrar.js Romantica/Prueba
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ cd ../
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ touch camadax.txt
+touch: cannot touch 'camadax.txt': Permission denied
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH (main)
+$ cd Películas
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ mv Terror/It.xls Infantiles
+
+USUARIO@DESKTOP-6S0PIL6 MINGW64 ~/Desktop/DH/Películas (main)
+$ rm -r Romantica/Prueba
