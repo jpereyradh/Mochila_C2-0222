@@ -1,0 +1,10 @@
+a) El sistema de control de versión Git fue inventado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y la compatibilidad del mantenimiento de versiones de aplicaciones
+   cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de una computadora, incluyendo coordinar el trabajo que
+   varias personas realizan sobbre archivos compartidos en un repositorio de código.
+
+b) Github actualmente pertenece a Microsoft, la estrategia de la empresa es participar en el desarrollo de productos digitales y de la nube, debido a que el CEO de la empresa sostiene
+   que los desarrolladores son los constructores de la nueva era, están escribiendo el código del mundo y para ello utilizan Github que es el hogar para compartir miles de proyectos
+   digitales en la nube.
+
+c) Se puede trabajar con Github desde editores de texto, por ejemplo Visual Studio Code.
+
