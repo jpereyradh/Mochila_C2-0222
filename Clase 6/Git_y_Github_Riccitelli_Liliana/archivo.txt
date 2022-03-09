@@ -1,3 +1,4 @@
+<<<<<< HEAD
 a) El sistema de control de versión Git fue inventado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y la compatibilidad del mantenimiento de versiones de aplicaciones
    cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de una computadora, incluyendo coordinar el trabajo que
    varias personas realizan sobbre archivos compartidos en un repositorio de código.
