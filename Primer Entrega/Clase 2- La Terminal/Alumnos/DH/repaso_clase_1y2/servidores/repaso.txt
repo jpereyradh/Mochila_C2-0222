@@ -1,1 +1,0 @@
-Un servidor es una computadora, la cual es capaz de atender las instrucciones de un cliente y devolverle una respuesta.
