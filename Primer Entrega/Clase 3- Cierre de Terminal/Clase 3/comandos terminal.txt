@@ -1,0 +1,23 @@
+M@MARTINBOOK MINGW64 ~/Desktop/DH/Peliculas
+$ mkdir Infantiles Accion Terror Comedio Romanticas
+$ touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+$ mkdir ./Peliculas/Romanticas/Prueba
+M@MARTINBOOK MINGW64 ~/Desktop/DH
+$ rm Peliculas/Accion/Smooth\ criminal.txt Peliculas/Terror/We\ will\ rock\ you.js 
+
+M@MARTINBOOK MINGW64 ~/Desktop/DH
+$ touch Peliculas/Accion/Prueba2/noBorrar.js
+
+
+M@MARTINBOOK MINGW64 ~/Desktop/DH
+$ mv Peliculas/Accion/Prueba2/noBorrar.js Peliculas/Romanticas/Prueba/
+
+M@MARTINBOOK MINGW64 ~/Desktop/DH/Peliculas
+$ mv Terror/IT.xls Infantiles/
+
+M@MARTINBOOK MINGW64 ~/Desktop/DH/Peliculas
+$ rm ../camada2.txt 
+
+M@MARTINBOOK MINGW64 ~/Desktop/DH/Peliculas
+$ rm -r Romanticas/Prueba/
+

@@ -1,3 +1,0 @@
-Git Bash: es una línea de comandos a través de la cual los usuarios pueden usar las funciones de Git. Fue creado Linus Torvalds porque quería facilitar el trabajo cuando se tiene un gran número de archivos de código fuente, lo que permitiría una gran eficiencia, confiabilidad y compatibilidad de estas versiones.
-
-Visual Studio Code: es un editor de código fuente. Es un IDE (entorno de desarrollo integrado), con esto nos referimos a un conjunto de herramientas diseñadas para facilitarnos la creación y el desarrollo de nuestros programas o aplicaciones.
