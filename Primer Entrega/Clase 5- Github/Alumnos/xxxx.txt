@@ -1,0 +1,8 @@
+archivo xxxx
+<<<<<<< HEAD
+Esta es la lina 2
+=======
+
+
+Este Clase es la 5 y terminamos
+>>>>>>> 6dd3a1f640a16fd06efcd1c51527509114e70e17
