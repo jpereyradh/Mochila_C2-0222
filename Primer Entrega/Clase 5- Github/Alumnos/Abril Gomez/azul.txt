@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-azul como el cielo
-azul como el mar
-la bandera azul
-=======
-azul como el cielo y como dory de buscando a nemo.
->>>>>>> 2f0054d42dd0432fec8dc7b2de809394716a2600

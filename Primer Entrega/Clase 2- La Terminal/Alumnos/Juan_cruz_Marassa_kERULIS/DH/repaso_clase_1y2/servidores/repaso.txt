@@ -1,0 +1,4 @@
+Servidores procesa varias solicitudes 
+web 
+base de datos
+archivos

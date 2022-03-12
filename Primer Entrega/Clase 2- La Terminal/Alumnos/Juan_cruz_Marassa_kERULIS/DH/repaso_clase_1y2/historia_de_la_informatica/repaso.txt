@@ -1,0 +1,33 @@
+¿Cómo comenzó todo?
+
+En el año 1122 AC en china con la invención del Ábaco, elemento muy sencillo para realizar operaciones aritméticas 
+
+En el año 1642 DC en Francia Blaise Pascal invento la primer calculadora mecánica Pascalina
+
+En el año 1801 DC en Francia Joseph Jacquard creo las tarjetas perforadas, una forma de guardar información para crear diseños de tela muy complejos
+
+En base a estos 2 inventos 
+
+En el año 1833 y 1842 en Gran Bretaña Charles Babbage creó la primera computadora.
+Como consecuencia aparece el primer algoritmo diseñado por la matemática Ada Lovelace
+
+En el año 1936 en Reino Unido Alan Turing la computadora logra ejecutar programas almacenados debido a la máquina de turing
+
+En el año 1943 en USA se creó unas de las primeras computadoras ENIAC las cual eran operadas por las chicas del refrigerador. Fueron consideradas como las primeras programadoras de la historia 
+
+En el año 1945 En Hungria Von Neumann diseño una arquitectura que establece las pautas actualmente utilizadas de cómo una computadora debería ser armada para optimizar al máximo sus recursos
+
+
+Esto dio lugar a las diferentes generaciones de computadoras
+
+40´s Primera generación
+
+60´s transistor - Chip
+
+70´s Microchip
+
+80's Windows Apple Linux
+
+Para IBM desde el 2011 ingresamos en la era cognitiva donde encontramos tecnologías como las computadoras cuánticas, que pueden ejecutar en 200 segundos cálculos complejos que las computadoras más rápidas de hoy en dia le llevaría unos 10.000 años
+
+Continuamente se van perfeccionando los recursos acercándonos a una computadora capaz de aprender y tomar decisiones por sí sola

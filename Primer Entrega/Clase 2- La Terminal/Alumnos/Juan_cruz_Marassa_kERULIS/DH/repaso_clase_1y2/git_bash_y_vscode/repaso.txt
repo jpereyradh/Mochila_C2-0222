@@ -1,0 +1,7 @@
+Que es VSCode
+
+es un IDE (entorno de desarrollo integrado)
+Herramientas diseñadas para facilitarnos las creación y el desarrollo de nuestros programas o apps
+
+
+Git Bash es una app de terminal que se utiliza como interfaz con un sistema operativo mediante comandos escritos CLI
