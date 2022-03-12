@@ -1,1 +1,0 @@
-Clase5ejercicio
