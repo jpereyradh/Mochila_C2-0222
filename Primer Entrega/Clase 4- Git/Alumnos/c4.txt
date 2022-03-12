@@ -1,0 +1,3 @@
+a: lo creo linus torvalds. pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+b: Microsoft ha comprado GitHub según Bloomberg. El mayor repositorio de código del mundo es punto de encuentro para millones de desarrolladores, y esa es precisamente la clave. Con el control de GitHub, Microsoft se hace también con la comunidad de desarrollo más nutrida del planeta.
+c: si se puede, con github desktop u otras apps.
