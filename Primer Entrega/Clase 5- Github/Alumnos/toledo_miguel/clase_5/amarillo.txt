@@ -1,0 +1,2 @@
+color amarillo
+segunda linea amarillo
