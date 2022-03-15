@@ -1,0 +1,1 @@
+La interfaz de usuario es el espacio donde se producen las interacciones entre seres humanos y máquinas. El objetivo de esta interacción es permitir el funcionamiento y control más efectivo del sistema informático desde la interacción con el humano.
