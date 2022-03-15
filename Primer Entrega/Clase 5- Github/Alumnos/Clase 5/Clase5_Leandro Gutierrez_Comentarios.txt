@@ -1,0 +1,1 @@
+Comenzamos a trabajar con GitHub, ejercicio con compañero (A y B), crear branches, intercambiar archivos, editar, etc.
