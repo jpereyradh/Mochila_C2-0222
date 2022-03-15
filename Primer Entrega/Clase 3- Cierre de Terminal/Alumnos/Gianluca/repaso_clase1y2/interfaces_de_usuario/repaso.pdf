@@ -1,0 +1,15 @@
+Es el medio por el cual el usuario interactua con un software. terminales etc 
+cli interfaz de linea de comando:
+Interfaces alfanuméricas (intérpretes de comandos) que solo presentan texto.
+
+Interfaz grafica de usuario (GUI)
+
+Permiten comunicarse con la computadora de forma rápida e intuitiva representando gráficamente los elementos de control y medida.
+
+
+Interfaz nativa de usuario (NUI)
+
+Pueden ser táctiles, representando gráficamente un "panel de control" en una pantalla sensible al tacto que permite
+ interactuar con el dedo de forma similar a si se accionara un control físico; pueden funcionar mediante 
+reconocimiento del habla, como, por ejemplo, Siri; o mediante movimientos corporales, como es el caso de Kinect.
+
