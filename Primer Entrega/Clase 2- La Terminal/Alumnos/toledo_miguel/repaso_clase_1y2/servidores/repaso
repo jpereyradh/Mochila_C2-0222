@@ -1,0 +1,58 @@
+## Arquitectura cliente servidor
+
+Busca procesar la información de un modo distribuido, compartiendo recursos en diferentes lugares.
+
+Caracteristicas:
+
+- Utiliza protocolos asimetricos, donde un servidor se limita a esperar a que el cliente realice peticiones
+- Acceso transparente, multiplataforma y multiarquitectura
+- Facilitar la *escalabilidad* horizontal (agregar nuevos clientes y servidores) y vertical (aumentar la potencia)
+
+![5f16e1061d1c2d1899a1d0c73eec81b9.png](file:///home/miguel/.config/joplin-desktop/resources/3fa2e34921254e61a15342f56a09e08e.png)
+
+Servidor: un servidor es un proceso que ofrece recursos y servicios a los clientes que lo solicitan
+
+Cliente: un proceso que solicita los servicios del servidor a través de una petición del usuario.
+
+Middleware: Es la parte del software del sistema que se encarga del transporte de los mensajes entre el cliente y el servidor y facilita la interconexión de sistemas heterogéneos sin utilizar tecnologías propietarias. Permite independizar a los clientes y a los servidores. Los sistemas están débilmente acoplados ya que interactúan mediante el envío de mensajes.
+
+Pasos:
+
+1.  Inicio del servidor: queda a la espera de peticiones del cliente
+2.  Cliente: realiza la solicitud al servidor
+3.  El sevidor recibe la peticion, la valida y la procesa.
+4.  El servidor envia la respuesta al cliente
+5.  El cliente recibe la respuesta, la valida y de ser necesario la muestra al usuario
+
+## Caracteristicas de un OS
+
+- Soporte de red: indispensable para brindar conectividad
+- Amplia compatibilidad con hardware
+- Seguridad: actualizado, con politicas de acceso seguras, etc.
+- Tolerante a fallos
+
+## Diferencias entre Server y desktop
+
+- Manejo diferente del hardware: diferentes capacidades de manejar mas o menos memoria (server maneja mas memoria q desktop)
+- Caracteristicas soportadas: ej, algunas versiones desktop no soportan virtualizacion
+- Soporte: distintas caracteristicas pueden tener soporte del fabricante en una u otra version
+
+## Servicios mas utilizados
+
+- Servicios de publicacion web: Despacha el contenido de un sitio web al usuario.
+    - Proceso:
+        - Al escribir una URL en el navegador, el sistema hace una busqueda DNS para encontrar el servidor al que corresponde esa URL.
+        - Cuando encuentra el server, el navegador le pide al server el contenido de esa URL.
+        - El webserver procesa el pedido y devuelve el resultado al navegador
+    - Ejemplos: Apache, IIS, NGINX
+- Servicios de DB: Permite la organizacion de la informacion mediante tablas, registros e indices. Provee de esa informacion a otros equipos o aplicaciones
+    - Ejemplos: MySQL, Postgres, SQLServer, MongoDB
+- Servicio de email: Permite enviar y recibir correo electronico entre usuarios, hosts y servidores. Filtra, almacena, envia y recibe correos.
+    - MTA (Mail transfer agent): se encarga de transferir un mensaje de un host a otro. Ej: exchange.
+    - MDA (Mail delivery agent): recibe el correo del MDA y lo deposita en un inbox
+- Servicio de archivos: comparte en una red  un conjunto de archivos y administra los permisos de acceso a los mismos.
+    - Ej: CIFS/Samba, NTFS (Windows), NFS
+- Servicio de Red: satisfacen necesidades de ruteo, proxy, firewall, etc.
+    - Ej: pfsense, dd-wrt, etc.
+- Servicio de Dominio: organizan usuarios y equipos en una red, autentica y valida el acceso de los usuarios a los recursos.
+    - Ej: Active directory. Protocolos: LDAP, Kerberos, DNS.

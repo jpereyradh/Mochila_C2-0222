@@ -1,0 +1,17 @@
+Tipos de Hardware:
+
+- Entrada
+- Salida
+- Internos
+
+Tipos de servidores
+
+- Web servers (paginas de internet)
+- Bases de datos: provee de servicios de DB a otras computadoras
+- Archivos: almacenan archivos
+
+Tipos de software:
+
+- Sistema: Desvincula al usuario y al programador de los detalles del sistema informático en particular que se use, transparentando el procesamiento referido a las características internas. Ej. OS, drivers, etc
+- Programacion: Permite desarrollar progrmas
+- Aplicacion: cualquier otro software

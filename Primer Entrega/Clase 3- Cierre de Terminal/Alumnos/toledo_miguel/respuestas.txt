@@ -1,0 +1,11 @@
+Punto 9
+
+¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+
+mkdir Infantiles Accion Terror Comedia Romanticas
+
+¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+
+touch Intenzamente.txt 'El juego del miedo.xls' 'Rapido y furioso.pdf' Titanic.jpg

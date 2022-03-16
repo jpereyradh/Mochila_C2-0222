@@ -1,0 +1,9 @@
+Tipos de UI:
+
+- CLI
+- GUI
+- NUI (nativa, ej: voz)
+
+Terminal: es una interfaz que nos sirve para comunicarnos con una computadora, un teclado para entrada de datos y una pantalla para mostrar únicamente caracteres alfanuméricos (sin gráficos).
+
+Consola: una consola es un *tipo especial de terminal*.

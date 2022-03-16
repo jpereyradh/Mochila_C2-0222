@@ -1,0 +1,30 @@
+Comenzando:
+
+- git init: crea el repo
+    - git config user.name /agregar nombre de usuario
+    - git config user.email: agrega email de usuario
+
+Agregando archivos:
+
+- git add . : agrega todo
+- git rm: saca archivos
+- git status: muestra status de archivos
+
+Confirmando archivos:
+
+git commit -m "mensaje de commit": comitea los cambios
+
+![bb4c45e0a938d3664beb25ef39560744.png](file:///home/miguel/.config/joplin-desktop/resources/e92d074f67614d0eabfbd800749ea15a.png)
+
+Conectar con repositorio en GIthub
+
+git remote add origin [LINK A GIT]
+
+Subir archivos
+
+git push origin master: pushea al repo origin la rama master
+
+Bajar archivos:
+
+- Clonar repo a local: git clone [LINK A GIT]
+- Actualizar codigo local: git pull origin master
