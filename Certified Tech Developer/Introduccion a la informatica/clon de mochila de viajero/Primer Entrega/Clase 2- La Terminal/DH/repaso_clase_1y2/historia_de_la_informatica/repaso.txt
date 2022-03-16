@@ -1,0 +1,15 @@
+¿Qué es una computadora?
+Una computadora es un dispositivo electrónico capaz de recibir instrucciones y ejecutarlas. Estas instrucciones son dadas por un usuario, por medio de una interfaz que presenta el sistema operativo lo cual hace más sencilla la comunicación entre el usuario y la máquina. El sistema operativo interpreta y ejecuta con los recursos que dispone, a estos recursos se les conoce como hardware y todo lo que interpreta y ejecuta los deseos del usuario es el software.
+Pero, ¿esto fue siempre así ? 
+A lo largo de la historia, esto ha ido evolucionando de manera continua, gracias a la aparición de nuevos componentes y diferentes personas que idearon una forma de maximizar la utilización de estos avances tecnológicos.
+1122 AC - El Abaco en China
+1642 DC - Pascalina Blas Pascal  
+1801 DC - Tarjetas Perforadas Joseph Jaqcuard 
+1833 DC - 1era Computadora Babbage - 1er Algoritmo Ada Lovelace
+1936 DC - Maquina de Alan Turing
+1943 DC - Eniac Las chicas del refrigerador
+1945 DC - La arquitectura de la Computadora - Von Neumann
+1era Generacion 40s"
+60s Transistor Chip
+70s Microchip
+80s Windows Linus Apple

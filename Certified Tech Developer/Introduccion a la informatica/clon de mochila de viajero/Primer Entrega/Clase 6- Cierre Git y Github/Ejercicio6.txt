@@ -1,0 +1,85 @@
+PASO 1: Hacé lo siguiente en la terminal, luego copiá y pegá todo el texto. Esto incluye tanto lo que ingresaste en la terminal como el texto que devuelve.
+
+1) Creá un repositorio en github.com.
+2) Cloná el repositorio a tu maquina (git c???e).
+3) Ingresá a la carpeta del proyecto.
+4) Creá un archivo app.js.
+5) Ejecutá el comando git status y analizá la salida del mismo.
+6) Agregá app.js a git utilizando git add app.js
+7) Ejecutá el git status y compará con el resultado anterior.
+
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/formatica/4/clas4
+$ git clone https://github.com/Francotc2013/playgound.git
+Cloning into 'playgound'...
+warning: You appear to have cloned an empty repository.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/4/clas4
+$ cd playgound/
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/4/clas4/playgound (main)
+$ touch app.js
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/4/clas4/playgound (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/4/clas4/playgound (main)
+$ git add .
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/4/clas4/playgound (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+
+
+PASO 2: Hacé lo siguiente en la terminal, luego copiá y pegá todo el texto. Esto incluye tanto lo que ingresaste en la terminal como el texto que devuelve.
+NO copiar los comandos y resultados del PASO 1.
+
+1)  Realizá un git commit -m "mi primer commit" (con ese comentario literalmente igual).
+2)  Ejecutá, ahora, un git status y compará los resultados con los anteriores.
+3)  Subí los cambios al repositorio origen, en otras palabras, subí los cambios a github (git p???).
+4)  Ejecutá un git status y analizá el resultado.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/4/clas4/playgound (main)
+$ git commit -m "mi primer commit"
+[main (root-commit) d7f61e7] mi primer commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 app.js
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/4/clas4/playgound (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/4/clas4/playgound (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 208 bytes | 208.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Francotc2013/playgound.git
+ * [new branch]      main -> main
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/4/clas4/playgound (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
