@@ -1,0 +1,1 @@
+En mi opinión y por lo que estuve investigando, el comando rm -r / --no-preserve-root, sirve para eliminar todos los datos de la unidad. Al hacerlo yo se spamearon un montón de lineas que no paraban porque supuestamente no habia permisos, por lo cual no dejaron de aparecer hasta que le di ctrl + c
