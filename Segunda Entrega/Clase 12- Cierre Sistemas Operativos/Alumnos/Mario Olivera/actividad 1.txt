@@ -1,0 +1,62 @@
+olivera.mario.
+
+● Investigar y contestar las siguientes preguntas. ¿Que es un usuario root en Linux?
+¿Por qué ubuntu no me deja establecer la contraseña durante la instalación?
+¿Cuáles son los procesos típicos de Linux?¿Cómo identificarlos?.
+● Investigar y establecer una contraseña para el usuario root.
+● Subir el documento de manera individual en la mochila.
+
+1.
+a)
+El usuario root en GNU/Linux es el usuario que tiene acceso administrativo al
+sistema. Los usuarios normales no tienen este acceso por razones de seguridad.
+b)
+En Ubuntu, no se supone que se deba añadir una contraseña al usuario root.
+Existe un mecanismo llamado "sudo" que se encarga de ello. Mediante sudo se
+pueden añadir usuarios (admins). Luego esos usuarios pueden correr comandos o
+programas como "root".
+Por defecto, la clave del usuario root se bloquea en Ubuntu. Eso quiere decir
+que no puedes iniciar sesión como usuario root directamente o usar el comando "su"
+para adquirir privilegios de usuario root. Sin embargo, como el usuario root existe
+físicamente todavía es posible correr programas con privilegios de usuario root. Ahí
+es cuando el comando "sudo" se utiliza. Este comando permite a usuarios
+autorizados (generalmente admins) correr ciertos programas con privilegios de root
+sin tener que saber la clave o no.
+En conclusión, dentro de la terminal, se debería usar sudo para los comandos
+que requieren privilegios root. Pero, cuando sudo pida contraseña, se debe utilizar la
+contraseña del usuario admin, y no la del usuario root.
+c)
+Los procesos en linux son basados en procesos ya existentes mediante un proceso
+de clonación, también para generar un nuevo tipo de tarea para que la realice
+También los procesos se puede encontrar en diferentes estados
+● T-Stopped detenido, un proceso que ha sido detenido mediante el envío
+de alguna señal generalmente.
+● R-Running Corriendo, el proceso se encuentra corriendo en el
+procesador.
+● S-Interruptible sleep Espera interrumpible, el proceso se encuentra
+esperando a que se cumpla algún evento, por ejemplo, que el planificador de
+procesos del kernel lo planifique para su ejecución.
+
+d)
+
+PID, el identificador de proceso en Linux
+El PID es un número entero que identifica unívocamente a cada proceso en una
+tabla de procesos administrada por el kernel Linux. Esta tabla de procesos mantiene
+una entrada por cada uno de los procesos que están en ejecución en el sistema en
+el momento actual. Esa tabla es, precisamente, la que se consulta con comandos
+como ps o pstree.
+Uno de los datos almacenados, es el pid, o process-id, utilizado, como hemos visto
+en un artículo anterior, para facilitarnos la terminación de procesos que no
+responden, o para que el sistema operativo pueda comunicar procesos usando IPC,
+entre otras tareas.
+
+
+Cambiar la clave root de Linux
+Esta contraseña se nos solicita cada vez que necesitamos realizar un cambio en el sistema
+operativo como instalar/desinstalar programas o ejecutar comandos y no es la misma que la
+contraseñas que usamos para iniciar sesión. Para cambiarla seguimos los pasos:
+
+. Ingresamos el comando sudo su
+. Introducimos la clave actual de nuestro usuario creado.
+. Ingresamos el comand: sudo passwd root y escribimos la nueva clave
+

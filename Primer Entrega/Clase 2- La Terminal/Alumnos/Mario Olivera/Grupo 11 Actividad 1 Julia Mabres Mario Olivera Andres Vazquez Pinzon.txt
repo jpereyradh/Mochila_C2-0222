@@ -1,0 +1,23 @@
+rentas@DESKTOP-CG1D96D MINGW64 ~/Desktop/DH
+$ ls -R
+.:
+repaso_clase1y2/
+
+./repaso_clase1y2:
+historia_de_la_contabilidad/  interfaces_de_usuario/  servidores/
+infraestructura/              que_haremos_hoy/
+
+./repaso_clase1y2/historia_de_la_contabilidad:
+repaso.txt
+
+./repaso_clase1y2/infraestructura:
+repaso.jpg
+
+./repaso_clase1y2/interfaces_de_usuario:
+repaso.png
+
+./repaso_clase1y2/que_haremos_hoy:
+repaso.xls
+
+./repaso_clase1y2/servidores:
+repaso.doc
