@@ -1,0 +1,9 @@
+1. Por que un lenguaje de programacion puede utilizarse en algunos sistemas operativos y en otros no?
+ Para empezar el lenguaje debe ser compatible con la arquitectura de la maquina y si se trata de sistema operativo el mismo debera contar con las dependencias/librerias necesarias para que el pueda ser compilado o ejecutado.
+2. Que tipo de maquina virtual es virtual box?
+Es una MV de procesos, es decir, se ejecuta como un proceso normal dentro de un sistema operativo. Soporta un solo proceso.
+3. Si tengo mas de una maquina virtual y una se rompe. Esto afecta a las demas y por que?
+No afecta a las demas pro que cada una trabaja de manera aislada gracias a la virtualizacion. Es un entorno seguro por que la virtualizacion aisla los recursos como si fuera un pc indivudual.
+
+
+
