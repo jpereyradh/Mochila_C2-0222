@@ -1,1 +1,0 @@
-se puede trabajar con el explorador de archivos del usuario, pero hace el proceso mas lento e incomodo, la terminal agiliza y facilita el proceso 
