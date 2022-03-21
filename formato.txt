@@ -1,0 +1,26 @@
+1.Porque un leguaje de proramación sólo puede utilizarse en algunos sistemas oprativos y en 
+otros no?
+Porque un lenguaje de programación compila a lenguaje enamblador el cual es 
+ejecutado por el sistema operativo, este lenguaje ensamblador depende de 2 cosas, de la 
+arquitectura del procesador y la interpretación que le de al sistema operativo. Si en la 
+computadora cambia la arquitectura del procesador el lenguaje ensamblador es totalmente 
+diferente y no va a correr. Cualquier lenguaje de programación puede usarse en un sistema 
+siempre y cuando haya un intérprete o compilador (según coresponda al lenguaje en cuestión) 
+si es que deseass programar en esa máquina con ese sistema operativo.
+
+2.Qué tipo de máquina virtual es virtualBox? VirtualBox es un software para virtualización, 
+tambien conocido como hipervisor de tipo 2, que se utilizar para virtualizar sistemas 
+operativos dentro del ordenador existente, creando lo que se conoce como máquina virtual. Un 
+hipervisor de tipo 2 se diferencia con los de tipo 1 en que necesita un sistema operativo 
+para funcionar, a diferencia de los de tipo 1 en los que el propio hipervisor funciona sobre 
+el hardware, o máquina host. Existen varios factores a tener en cuenta cuando necesitamos 
+hacer uso de un hipervisor, pero generalmente VirtuallBox, y los hipervisores de tipo 2 en 
+general, se usan cuando no necesitamos destinar la máquina host al completo para realizar 
+tareas de virtualización, por ejemplo, a la hora de probar software.
+
+3.Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las 
+demás?¿por qué? Cada máquina virtual es totalmente independiente a otra, por lo cual cada 
+una de ellas puede ejecutar diferentes sistemas operativos y/o aplicaciones, aunque al mismo 
+tiempo se encuentran dentro de un solo equipo físico. Debido a que cada maquina virtual esta 
+aislada de otras maquinas virtualizadas, en caso de ocurrir un bloqueo, problema, reinicio o 
+cuelgue, esto no afecta a las demás máquinas virtuales.
