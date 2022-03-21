@@ -1,0 +1,43 @@
+1. Si se puede crear en el paso dos la carpeta con un solo comando
+ monse@LAPTOP-G7BB227R MINGW64 ~/desktop
+$ mkdir DH/Peliculas/Infantiles DH/Peliculas/Accion DH/Peliculas/Terror DH/Peliculas/Comedias DH/Peliculas/Romanticas
+
+2 Si se puede crear el paso 3 en un solo comando 
+$ touch Infantiles/Intenzamente.txt Infantiles/"El juego del miedo.xls" Infes/"Rapido y furioso.pdf" Infantiles/Titanic.jpg
+
+3. Si se puede crear en un solo paso $ mkdir Peliculas/Romanticas/Prueba
+
+4. Si se puede crear en un solo mkdir Peliculas/Accion/Prueba2
+
+Visual studio Code
+
+2. $ mv Peliculas/Infantiles/"La dama y el bagavundo.jpg" Peliculas/Infantiles/"La dama y el vagabundo.jpg"
+ dama y el vagabundo.png"
+$ mv Comedias/IT.xls Terror Comedias/Madagaskar.js Infantiles
+$ mv Comedias/"Orgullo y prejuicio.txt" Romanticas
+
+3. monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/DH
+$ mv Peliculas/Infantiles/Intenzamente.txt Peliculas/Infantiles/Intensamente.txt
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/DH
+$ mv Peliculas/Infantiles/"La dama y el bagavundo.jpg" Peliculas/Infantiles/"La dama y el vagabundo.jpg"
+ dama y el vagabundo.png"
+
+4.    $ rm Peliculas/Accion/"Smooth criminal.txt" Peliculas/Terror/"We will rock you.js"
+
+5. monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/DH
+$ touch Peliculas/Accion/Prueba2/noBorrar.js
+
+
+6. monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/DH/Peliculas
+$ mv Accion/Prueba2/noBorrar.js Romanticas/Prueba
+
+7. monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/DH
+$ touch camadax.txt
+
+8.monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/DH/Peliculas
+$ mv Terror/IT.xls Infantiles
+
+9. monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/DH/Peliculas
+$ rm ../camadax.txt
+
+10.$ rm -r Romanticas/Prueba

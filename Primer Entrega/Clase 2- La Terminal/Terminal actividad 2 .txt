@@ -1,0 +1,33 @@
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase2 (Ledezma_Monserrat)
+$ mkdir repaso_1y2
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase2 (Ledezma_Monserrat)
+$ mkdir repaso_1y2/"historia de la contabilidad" repaso_1y2/"que haremos hoy" repaso_1y2/"servidores" repaso_1y2/"Interfaces de usuarios" repaso_1y2/Infraestructura
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase2 (Ledezma_Monserrat)
+$ touch repaso_1y2/"historia de la contabilidad"/repaso.txt repaso_1y2/"que haremos hoy"/repaso.txt repaso_1y2/"servidores"/repaso.txt repaso_1y2/"Interfaces de usuarios"/repaso.txt repaso_1y2/"Infraestructura"/repaso.txt
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase2 (Ledezma_Monserrat)
+$ cd repaso_1y2
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase2/repaso_1y2 (Ledezma_Monserrat)
+$ ls -R
+.:
+ Infraestructura/  'Interfaces de usuarios'/  'historia de la contabilidad'/  'que haremos hoy'/   servidores/
+
+./Infraestructura:
+repaso.txt
+
+'./Interfaces de usuarios':
+repaso.txt
+
+'./historia de la contabilidad':
+repaso.txt
+
+'./que haremos hoy':
+repaso.txt
+
+./servidores:
+repaso.txt
+

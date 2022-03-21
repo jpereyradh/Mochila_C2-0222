@@ -1,0 +1,303 @@
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (Ledezma_Monserrat)
+$ git init
+Initialized empty Git repository in C:/Users/monse/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora/.git/
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (master)
+$ git branch -m main
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git config --global user.name "monledez"
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git config --global user.email "monse.ledezma17@gmail.com"
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git add .
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git commit -m "Primer repositorio"
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git add .
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git commit -m "primer repositorio"
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git remote add origin https://github.com/monledez/Intro_practica5.git
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git log
+fatal: your current branch 'main' does not have any commits yet
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ touch README.md
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ nano README.md
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ cat README.md
+Intro_practica5
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git commit -m "Subiendo readme"
+[main (root-commit) b76ca90] Subiendo readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 234 bytes | 234.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/monledez/Intro_practica5.git
+ * [new branch]      main -> main
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ touch camisa.txt sudadera.txt pantalon.txt
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ nano camisa.txt
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ nano sudadera.txt
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ nano pantalon.txt
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git add .
+warning: LF will be replaced by CRLF in camisa.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pantalon.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in sudadera.txt.
+The file will have its original line endings in your working directory
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git commit -m "agregando archivos"
+[main 438fe27] agregando archivos
+ 3 files changed, 3 insertions(+)
+ create mode 100644 camisa.txt
+ create mode 100644 pantalon.txt
+ create mode 100644 sudadera.txt
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 527 bytes | 527.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/monledez/Intro_practica5.git
+   b76ca90..438fe27  main -> main
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git pull origin main
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 7 (delta 1), reused 7 (delta 1), pack-reused 0
+Unpacking objects: 100% (7/7), 733 bytes | 56.00 KiB/s, done.
+From https://github.com/monledez/Intro_practica5
+ * branch            main       -> FETCH_HEAD
+   438fe27..940d9e7  main       -> origin/main
+Updating 438fe27..940d9e7
+Fast-forward
+ mariodos.txt  | 1 +
+ mariotres.txt | 1 +
+ mariouno.txt  | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 mariodos.txt
+ create mode 100644 mariotres.txt
+ create mode 100644 mariouno.txt
+
+
+VISUAL STUDIO
+
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)$ git add .
+warning: LF will be replaced by CRLF in sudadera.txt.
+The file will have its original line endings in your working directory
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git commit -m "Edite documento"
+[main 4ed2ff3] Edite documento
+ 1 file changed, 1 insertion(+)
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git pull origin main
+From https://github.com/monledez/Intro_practica5
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+$ git pull origin main
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 10 (delta 4), reused 9 (delta 3), pack-reused 0
+Unpacking objects: 100% (10/10), 1.07 KiB | 35.00 KiB/s, done.
+From https://github.com/monledez/Intro_practica5
+ * branch            main       -> FETCH_HEAD
+   4ed2ff3..9a8ba2b  main       -> origin/main                            Updating 4ed2ff3..9a8ba2b
+Fast-forward
+ lilianauno.txt | 1 +
+ mariouno.txt   | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 lilianauno.txt
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)$ git add .
+warning: LF will be replaced by CRLF in sudadera.txt.
+The file will have its original line endings in your working directory
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git commit -m "conflicto"
+[main 84e5c50] conflicto
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+Automatic merge failed; fix conflicts and then commit the result.
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main|MERGING)$ git push origin main
+To https://github.com/monledez/Intro_practica5.git ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/monledez/Intro_practica5.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main|MERGING)
+$ git add .
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main|MERGING)
+$ git commit -m "arreglo conflicto"
+[main 58aa4e6] arreglo conflicto
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git pull origin main
+From https://github.com/monledez/Intro_practica5
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git push origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 598 bytes | 598.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/monledez/Intro_practica5.git
+   5834cd2..58aa4e6  main -> main
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git add .
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git pull origin main
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 9 (delta 5), reused 9 (delta 5), pack-reused 0
+Unpacking objects: 100% (9/9), 1010 bytes | 40.00 KiB/s, done.
+From https://github.com/monledez/Intro_practica5
+ * branch            main       -> FETCH_HEAD
+   58aa4e6..f6ef300  main       -> origin/main
+error: Your local changes to the following files would be overwritten by merge:
+        sudadera.txt
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 58aa4e6..f6ef300
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git commit -m "cambios"
+[main 7b0b429] cambios
+ 1 file changed, 2 insertions(+)
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git push origin main
+To https://github.com/monledez/Intro_practica5.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/monledez/Intro_practica5.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 265 bytes | 13.00 KiB/s, done.
+From https://github.com/monledez/Intro_practica5
+ * branch            main       -> FETCH_HEAD
+   f6ef300..fdbeddb  main       -> origin/main
+Auto-merging sudadera.txt
+Merge made by the 'ort' strategy.
+ sudadera.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git add .
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git commit -m "se arregla conflicto"
+[main 91d4cc8] se arregla conflicto
+ 1 file changed, 1 deletion(-)
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git pull origin main
+From https://github.com/monledez/Intro_practica5
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase5/Practica Integradora (main)
+$ git push origin main
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 872 bytes | 872.00 KiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 3 local objects.
+To https://github.com/monledez/Intro_practica5.git
+   fdbeddb..91d4cc8  main -> main
+
+
+To https://github.com/monledez/Intro_practica5.git
+ * [new branch]      Monse_ledez -> Monse_ledez

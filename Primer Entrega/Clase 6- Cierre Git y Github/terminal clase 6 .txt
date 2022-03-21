@@ -1,0 +1,31 @@
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222 (Ledezma_Monserrat)$ touch Recordatorio.pdf
+
+$ mv archivo.txt Clase6/Git_git_y_github_Ledezma_Torres
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222 (Ledezma_Monserrat)
+$  mv Recordatorio.pdf Clase6/Git_y_github_Ledezma_Torres
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222 (Ledezma_Monserrat)
+$ cd Clase6
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase6/Git_y_github_Ledezma_Torres (Ledezma_Monserrat)
+$ touch "Preguntas clase.txt"
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase6 (Ledezma_Monserrat)
+$ git status
+On branch Ledezma_Monserrat
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    archivo.txt
+        deleted:    ../archivo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git_y_github_Ledezma_Torres/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+monse@LAPTOP-G7BB227R MINGW64 ~/Desktop/Digital_house/Introduccion a la informatica/Clase 6/25.02/Mochila_C2-0222/Clase6 (Ledezma_Monserrat)
+$ ls -a
+./  ../  Git_y_github_Ledezma_Torres/
