@@ -3,7 +3,11 @@
 
     <body> <h3>Bienvenidos </h3>
     
+<<<<<<< HEAD
     Hola como estas?
+=======
+    Hola como estas??
+>>>>>>> bf0c9a88979cbd7a4ed602628f644078cb8a068f
     
     </body>
 
