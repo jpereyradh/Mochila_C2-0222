@@ -1,0 +1,11 @@
+Dadas nuestras direcciones IP y las máscaras de red, 
+
+¿ La IP pública y privada de qué clase son ? 
+
+Las IP Privadas son las que se encuentran en los siguientes rangos:
+Clase A: 10.0.0.0 — 10.255.255.255
+Clase B: 172.16.0.0 — 172.31.255.255 
+Clase C: 192.168.0.0 — 192.168.255.255 
+
+¿ Qué información puedo obtener de la dirección MAC?
+Podemos saber de qué empresa es la motherboard, en mi caso es la ASUSTek COMPUTER INC.

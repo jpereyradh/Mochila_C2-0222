@@ -1,3 +1,0 @@
-A - ¿Quien creo Git Hub y por que? R: La creo Linus Torvalds teniendo en mente la eficiencia, compatibilidad y confiabilidad del mantenimiento de versiones de aplicaciones.
-B - ¿A quien pertenece GitHub y por que? R: A Microsoft. Esta adquisicion se debio a un cambio de paradigma de Microsoft del cual pasaron de odiar a amar el Open Source.
-C - ¿Hay otra forma que no sea la terminal para trabajar con GitHub? R: Si. Cualquier plugin que se integre con git. Por ejemplo: GitGraph, GitExtensionPack, GitExtensionManager.
