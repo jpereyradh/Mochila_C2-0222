@@ -1,7 +1,0 @@
-
-El servidor es un ordenador y sus programas cqapaz de atender las peticiones y responder a otros ordenadores. Su arquitectura es de cliente (pide) - servidor (responde). 
-Existen tres tipos de servidores: 
-1. web: Almacena archivos en una web y los cliente spueden acceder a través de la red. 
-2. de base de datos: Almacena base de datos para ser utilizadas por el cliente y realizan tareas de análisis, almacenamiento y manipulación de datos. 
-3. de archivos: Almacena archivos de diferente tipos y los distribuye a través de la red. 
-
