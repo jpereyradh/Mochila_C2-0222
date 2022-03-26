@@ -1,0 +1,12 @@
+ip publica: 181.52.38.65
+
+ip privada:  192.157.0.11
+mascara de subred: 255.255.255.0
+
+direccion mac
+44-8A-5B-A2-FB-69
+
+Clase C
+
+Micro-Star INT'L CO., LTD.
+
