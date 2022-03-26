@@ -1,0 +1,10 @@
+1- ¿Por qué los lenguajes de programación solo pueden ser utilizados en algunos sistemas operativos y en otros no?
+Esto es debido a que para usarse determinados lenguajes el sistema debe tener un interprete
+o un compilador para poder programar. Si no existe el interprete, no se podrá usar.
+2-¿Qué tipo de maquina virtual es VirtualBox?
+VirtualBox es una maquina de código abierto, con licencia GPLv2, programada en C++ y C
+sus autores son Oracle Corporation y fue lanzada el 15 de enero de 2007.
+3-¿Si una máquina virtual falla, afecta a las demás?
+No, si una máquina virtual falla, esta no afecta a las demás, ya que las maquinas virtuales se
+ejecutan en un mismo servidor para ejecutar varias instancias de la misma aplicación de forma separada.
+
