@@ -1,0 +1,11 @@
+*¿Porque un lenguaje de programacion solo puede utilizarse en algunos sistemas operativos y en otros no?
+
+Si el lenguaje de programacion necesita ser compilado depende de tener un compilador compatible con el sistema operativo y si es interpretado que tenga un interprete compatible con el sistema operativo.
+
+*Que tipo de maquina virtual es virtualBox?
+
+Es una maquina virtual de sistema.
+
+*Si tengo mas de una maquina virtual instalada, y una se rompe, ¿esto afecta a las demas?¿porque?
+
+En su burbuja, la maquina virtual no puede acceder al resto de datos de la maquina anfitrion u otras maquinas virtuales a pesar de estar fisicamente funcionando en la misma, estan aisladas.
