@@ -1,0 +1,146 @@
+
+
+
+ip con Brave 200.91.35.169
+
+Proveedor de Internet	Pais	Proxy
+Internet Para Todos - Gobierno de La Rioja	Argentina	no
+
+
+
+ip con vpn de opera 77.111.246.41
+
+Proveedor de Internet	Pais	Proxy
+Opera Mini Proxy	United States	no
+
+
+
+
+ip con Tor 144.217.86.108
+
+Proveedor de Internet	Pais	Proxy
+OVH SAS	Anonymous Proxy	no
+
+
+Respuestas :
+
+Las ip con en todos los casos diferentes, ya que la red Tor y el pvn actuan como intermediarios en la conexion 
+
+
+En navegador normal no permite ver el video
+En opera con vpn si me permitio ver el video
+En red Tor no me permitio ver el video 
+
+
+Velocidad con navegador comun :
+
+ PING ms
+9
+ DESCARGA Mbps
+17.05
+ SUBIDA Mbps
+4.43
+Conexiones
+Multi
+La Rioja Telecomunicaciones SAPEM
+La Rioja
+Cambiar servidor
+Internet Paratodos
+200.91.35.169
+VALORAR
+Internet Paratodos
+
+
+
+Velocidad con Opera :
+
+ PING ms
+220
+ DOWNLOAD Mbps
+1.42
+ UPLOAD Mbps
+4.64
+Connections
+Multi
+Cox - Wichita
+Wichita, KS
+Change Server
+Opera Mini
+77.111.246.41
+HOW DOES THE CUSTOMER SERVICE OF OPERA MINI COMPARE WITH YOUR EXPECTATIONS?
+
+
+Velocidad con Tor:
+
+
+PING ms
+302
+ DOWNLOAD Mbps
+10.16
+ UPLOAD Mbps
+2.40
+Connections
+Multi
+Telia Norge AS
+Oslo
+Change Server
+TerraHost
+185.243.218.78
+RATE YOUR PROVIDER
+
+
+Respuestas -
+
+Si, las velocidades varian mucho.
+
+En el caso de Tor :
+Tor hace que las distancias entre nuestro ordenador y el servidor de la página que queremos visitar se amplíen, y además mete un cifrado por capas con el que nuestros datos tienen que ir descifrándose nodo a nodo en vez de establecer una conexión directa. Por lo tanto, la velocidad de la conexión no depende sólo del servidor, sino también de la velocidad de los nodos intermedios.
+
+
+En el caso de uso de VPN :
+
+Las conexiones VPN, por lo general, se utilizan para ocultar nuestra identidad en la red y evitar que grandes empresas y organizaciones gubernamentales puedan rastrear nuestra actividad. Una conexión VPN se basa principalmente en conectarnos, de forma cifrada y segura, con un servidor al cual enviamos todas nuestras peticiones encargándose él de conectar con el destino, ocultando así nuestra identidad y quedando todos los datos del tráfico (origen, país, MAC, etc) suplantados por los datos del servidor.
+
+Hay servidores gratuitos, servidores de pago, servidores que garantizan nuestra privacidad y el anonimato… pero por lo general todos tienen el mismo inconveniente: la velocidad. Cuando hacemos uso de una conexión VPN, nuestro tráfico en vez de viajar directamente desde nuestro ordenador al destino, sufre un desvío y se ve afectado por diferentes retardos y saturaciones que hacen que la velocidad se reduzca drásticamente. Sin embargo, en ocasiones, si hacemos un test de velocidad o descargamos un archivo desde Internet, puede que la velocidad sea superior.
+
+Aunque no es lo habitual, existen una serie de factores que pueden hacer que la velocidad al estar conectados a un servidor VPN sea superior a la que obtenemos sin estar conectados, cuando en realidad debería ser al revés.
+
+En el caso de un navegador comun la conexion es directa sin intermediarios y por lo general la velocidad es la mas alta comparado con los dos anteriores casos.
+
+
+¿Que significa el valor del ping?
+
+El ping es la medida que se ocupa para medir la latencia y es expresado en milisegundos (o en su abreviación ms). Esto significa que a medida que el ping sea más bajo, mejor.
+
+
+Varia el valor del ping entre las diferentes opciones, ya que las que usan intermediarios (nodos), estos aportan latencia. En el caso de una conexion directa el ping es menor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
