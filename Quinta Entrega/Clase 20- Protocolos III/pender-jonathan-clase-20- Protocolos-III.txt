@@ -1,0 +1,29 @@
+¿Las ip públicas son las mismas? ¿por qué?
+
+No son las mismas ya que las IP porque la primera sin VPN es la ip dinamica asignada por nuestro proveedor de servicios de internet,
+La segunda pertenece a la VPN privada asignada por Opera haciendo que no conectemos a internet con esa ip publica.
+La tercera con TOR no aparecera porque se encuentra encriptada y la pagina de internet no puede decifrarla.
+
+
+Sin utilizar la VPN puedes ver el siguiente video? Ahora activala e intenta verlo, 
+¿que es lo que sucedió?¿Por qué?
+
+Con la VPN se puede visualizar el video ya que se establece la conexion con internet desde la ip que nos "presta" Opera para emular que estamos en la region establecida para ver el video.
+
+
+
+
+
+¿Las velocidades en los test son diferentes? ¿Por qué crees que sucede esto?
+
+Porque en vez de viajar directamente desde nuestro ordenador al destino, con VPN y TOR sufre un desvío, aumenta la latencia y esto hace que se vea afectado por diferentes retardos y saturaciones que hacen que la velocidad se reduzca drásticamente.
+
+
+¿Que significa el valor del ping?
+
+Es una unidad de medida que se ocupa para medir la latencia y es expresado en milisegundos (o en su abreviación ms). Esto significa que a medida que el ping sea más bajo, mejor.
+
+
+El valor del ping, ¿varia entre las diferentes opciones? ¿Por qué?
+
+Porque la informacion no viaja de manera directa entre el cliente y el servidor sino que lo hace mediante un tercero, por lo que, esto hace que la latencia para la respuesta aumente.
