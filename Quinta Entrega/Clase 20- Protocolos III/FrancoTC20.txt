@@ -1,0 +1,33 @@
+-Opera sin vpn ip:186.122.88.87
+-Opera ip vpn: 77.111.246.40 United states
+-Thor ip: 45.12.134.107 Anonymous Proxy
+
+¿Las ip públicas son las mismas? ¿por qué? 
+No, porque tanto el vpn como el thor nos “enmascaran” la IP
+
+Sin utilizar la VPN puedes ver el siguiente video? Ahora activala e intenta verlo, ¿que es lo que sucedió?¿Por qué?
+Sin el vpn no se puede reproducir el video, con la vpn activada si, ya que solo se puede ver desde otras ubicaciones geográficas.
+
+Utilizando Tor ¿pudimos localizar la IP ? 
+No, aparece anonymous proxy. 
+
+Speed test
+velocidad sin vpn :  PING ms 25  DESCARGA Mbps107.66 SUBIDA Mbps19.06
+velocidad con vpn :  PING ms 225 DOWNLOAD Mbps 1.43 UPLOAD Mbps 9.56
+velocidad con tor : Download Test Error
+A socket error occurred during the download test. A firewall could be blocking the connection or the server might be having some issues. Please try again later.
+
+Alternatively, check out our free Speedtest for Desktop apps for more reliable testing. 
+
+¿Las velocidades en los test son diferentes? ¿Por qué crees que sucede esto? 
+Si, son diferentes, ya que Tor envía y recibe información distribuida entre varios usuarios aleatorios que no revelan su identidad (la información hace muchos pasos, porque atraviesa varios nodos para viajar), lo que hace que su latencia sea baja. 
+Con VPN, la velocidad es mayor que en Tor. Con esta tecnología se reduce la cantidad de pasos, ya que la información viaja en un túnel seguro a un servidor externo (de otros países).
+Sin VPN , la velocidad es aún mayor, ya que acá se reduce mucho la cantidad de pasos que va a hacer la información, porque la misma no se va a distribuir entre varios usuarios o hacer un proceso de virtualización de Red privada, sino que viaja más directo entre cliente y servidor.
+
+¿Qué significa el valor del ping?
+La velocidad con la que viajan los paquetes de datos (latencia).
+
+El valor del ping, ¿varía entre las diferentes opciones? ¿Por qué? 
+Si varía, debido a que los paquetes de datos viajan más encriptados en la vpn y el tor.
+
+ 
