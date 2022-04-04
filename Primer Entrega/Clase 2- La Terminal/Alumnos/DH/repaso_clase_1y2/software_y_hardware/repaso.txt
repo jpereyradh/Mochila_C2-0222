@@ -1,0 +1,2 @@
+El software es un sistema formal de sistemas informáticos, que consta de un conjunto de componentes lógicos necesarios para hacer posible la realización de una tarea específica.
+El hardware se refiere a la parte física, tangible de un sistema informático, sus componentes eléctricos, electrónicos, electromecánicos y mecánicos.
