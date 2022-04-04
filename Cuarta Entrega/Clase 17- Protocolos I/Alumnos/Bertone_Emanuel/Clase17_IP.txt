@@ -1,0 +1,14 @@
+Direccion IP Publica: 192.168.0.160
+
+Direccion IP Privada: 201.252.79.28
+
+Direccion MAC: F8-75-A4-8E-E6-B1
+
+La ip publica es de clase C
+
+La ip privada es de clase dinamica.
+
+
+
+
+

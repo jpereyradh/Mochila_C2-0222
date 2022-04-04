@@ -1,0 +1,15 @@
+Las ip publicas no son las mismas ya que los puntos de conexion son distintos
+
+sin la conexion vpn no se podia ver la vpn, con ella simulamos estar localizados en el lugar donde nos permite ingresar a ver esa pelicula
+
+no se pudo localizar la ip
+
+.........................................................
+
+Utilizando vpn la conexion es mucho mas lenta.
+
+La respuesta del ping conectados a una vpn es mucho mas lenta.
+
+Varia entre las diferentes opciones.
+
+.........................................................
