@@ -1,0 +1,300 @@
+swagger: "2.0"
+info:
+  version: 1.0.0
+  title: "coding-challenge"
+  description:  <h2>Hello there!</h2> <br>
+                <h3>We are glad to have you!</h3> <br> 
+                <p>In this document you’ll find all the resources you'll need to successfully interact with our Coding Challenge API.</p>
+                <h3>Prerequisites</h3>
+                <p>To get started you’ll need the token you received on your email when you subscribed to the challenge. 
+                Since you’re reading this doc, we’ll assume you already have a valid token. If you don’t, 
+                head over to https://aerolab.co/coding-challenge, type join and enter your email. 
+                Afterwards you’ll receive an email with all the info you need to take the challenge!</p>
+                <p><strong>Remember&#58; </strong> Althought your token is personal, it's ok to have it hardcoded in the frontend/backend. We won't judge this kind of security. Assume that this token was the result of a previous authentication in real life. It won't expire during the contest duration!</p>
+                <h3>The Global Picture</h3>
+                <p>Think of this API as a way to interact with a simplified e-commerce where you have a certain amount of points that you can exchange for products. Let’s break this down in bullets:&#58;</p>
+                <p>Each user have points, with this point users will be able to redeem products.</p>
+                <ul>
+                  <li>Each user has a set amount of points that they can spend to redeem products.</li>
+                  <li>Each product has its own cost in points, and every product belongs to a specific category.</li>
+                  <li>All the products the user has successfully acquired are shown in a “redeem history”.</li>
+                </ul>
+                <h3>Actions Available</h3>
+                <p>When accesign to the API endpoints, you’ll be able to&#58;</p>
+                  <ul>
+                    <li>Access your personal user information</li>
+                    <li>Add points to your user</li>
+                    <li>Redeem Products</li>
+                    <li>Access your redeem history</li>
+                    <li>Check out all the available products with their attributes</li>
+                  </ul>
+                <h3>Hints</h3>
+                <p>To make calls to the API, send the API token in the Authorization HTTP header using the Bearer authentication scheme.</p>
+                <p>Remember if you run out of points, you can always use the /points endpoint to get some more.</p>
+                
+                
+
+  termsOfService: http://swagger.io/terms/
+  contact:
+    name: Swagger API Team
+    email: foo@example.com
+    url: http://madskristensen.net
+  license:
+    name: MIT
+    url: http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT
+host: coding-challenge-api.aerolab.co
+basePath: /
+schemes:
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+  
+paths:
+  /user/me:
+    x-summary: User
+    get:
+      parameters:
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+        default: "Bearer YOUR_TOKEN"
+        
+      description: | 
+        Get your personal user information.
+
+      responses:
+        200:
+          description: user response
+          schema:
+            type: object
+            properties:
+              id:
+                type: string
+              name:
+                type: string
+              points:
+                type: number
+              redeemHistory:
+                type: array
+                properties:
+                  productId:
+                    type: string
+                  id:
+                    type: string
+                  createDate:
+                    type: string
+              createDate:
+                type: string
+          examples:
+            application/json: {
+              "id": "5a03638052fd231590d04eb5",
+              "name": "John Kite",
+              "points": 2000,
+              "redeemHistory": [],
+              "createDate": "new Date(1510171520852)"
+            }
+                
+                
+        default:
+          description: unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+            
+  /user/points:
+    x-summary: Points
+    post:
+      parameters:
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+        default: "Bearer YOUR_TOKEN"
+      - name: "Something"
+        in: "body"
+        description: "Add points to your User"
+        schema:
+          type: object
+          required:
+            - amount
+          properties:
+            amount:
+              type: number
+              default: 1000
+          
+      description: |
+        Add points to your user. <br><br>
+        You can only add them by  1000, 5000 or 7500 in the body request. Any other value will be rejected. <br>
+        The body of this request has the following attributes&#58;
+
+        Name               |Data Type          |Description
+        -------------------|-------------------|-------------------
+        ``amount``  | number, required | Amount of points to add.
+      responses:
+        200:
+          description: user response
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+          examples:
+            application/json: {
+                "message": "Points Updated",
+                "new Points": 2000
+              }
+            
+  /user/history:
+    x-summary: History
+    get:
+      parameters:
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+        default: "Bearer YOUR_TOKEN"
+          
+      description: |
+        Get user redeem history. <br><br>
+        Take into account that if you didn’t redeem any product, you’ll get an empty array as a response.
+        
+      responses:
+        200:
+          description: user response
+          schema:
+            type: array
+            items:
+              type: object
+              properties:
+                productId:
+                  type: string
+                _id: 
+                  type: string
+                createDate:
+                  type: string
+          examples:
+            application/json: [
+              {
+                  "productId": "5a033eeb364bf301523e9b92",
+                  "name": "Sandalia Pale Gold YSL",
+                  "cost": 200,
+                  "category": "Indumentaria",
+                  "_id": "5a09ac59d867f70a56c0d7b2",
+                  "createDate": "2017-11-13T14:33:05.920Z",
+                  "img": {
+                      "url": "Some URL",
+                      "hdUrl": "Some HD URL"
+                  }
+              }
+            ]
+              
+        default:
+          description: unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+            
+  /redeem:
+    x-summary: Redeem
+    post:
+    
+      parameters:
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+        default: "Bearer YOUR_TOKEN"
+      - name: "Body Request"
+        in: "body"
+        description: "The user to create."
+        schema:
+          type: object
+          required:
+            - productId
+          properties:
+            productId:
+              type: number
+              default: "5a033eeb364bf301523e9b92"
+              
+      description: |
+        Claim a product and add it to the user’s redeem history. Take into account that if your user doesn't have the required points, you won't be able to redeem the product. Inside the body request, the product Id is expected.<br><br> 
+        The body of this request has the following attributes:
+
+        Name               |Data Type          |Description
+        -------------------|-------------------|-------------------
+        ``productId``  | string, required | Redeem a specific product
+              
+      responses:
+        200:
+          description: user response
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                
+          examples:
+            application/json: {
+              message: "You've redeem the product successfully"
+            }
+        default:
+          description: unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+            
+  /products:
+    x-summary: Products
+    get:
+      
+      parameters:
+      - name: "Authorization"
+        in: "header"
+        required: true
+        type: "string"
+        default: "Bearer YOUR_TOKEN"
+              
+      description: |
+        Get all the products available with their attributes.
+              
+      responses:
+        default:
+          description: Bad request
+        200:
+          description: Successful response
+          examples:
+            application/json: [
+              {
+                  "_id": "5a033eeb364bf301523e9b92",
+                  "name": "Sandalia Pale Gold YSL",
+                  "cost": 200,
+                  "category": "Indumentaria",
+                  "img": {
+                      "url": "https://coding-challenge-api.aerolab.co/images/Alienware13-x2.png",
+                      "hdUrl": "https://coding-challenge-api.aerolab.co/images/Alienware13-x2.png"
+                  }
+              },
+              {
+                  "_id": "5a033f0f364bf301523e9b93",
+                  "name": "iPhone 7 Case Sea-Blue",
+                  "cost": 200,
+                  "category": "Accesorios",
+                  "img": {
+                      "url": "https://coding-challenge-api.aerolab.co/images/SamsungTabS2-x1.png",
+                      "hdUrl": "https://coding-challenge-api.aerolab.co/images/SamsungTabS2-x1.png"
+                  }
+              }
+            ]
+            
+definitions:
+
+  Error:
+    required:
+      - code
+      - message
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
