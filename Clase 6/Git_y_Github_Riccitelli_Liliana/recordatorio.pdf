@@ -1,0 +1,17 @@
+
+
+1) $ git clone url : clonar o bajar repositorio remoto existente a un repositorio local
+2) $ git init: crear repositorio local 
+3) $ git config user.name y user.email: identifica nombre de usuario y mail de usuario que crea o modifica repositorio
+4) $ git add .: agrega todos los archivos creados a la stanging area
+5) $ git status: para verificar el estado de los archivos 
+6) $ git commit m: agrega archivos al repositorio
+7) $ git remote add url: linkea repositorio local con repositorio remoto
+8) $ git remote -v: establece con cual repositorio remoto está linkeado el repositorio local
+9) $ git log: determina todos los commits realizados en el repositorio
+10) $ git pull: actualiza el repositorio con los cambios realizados por los distintos colaboradores
+11) $ git push origin main: sube el repositorio local al repositorio remoto linkeado
+12) $ git branch nombre de la rama: crea una rama secundaria
+13) $ git checkout nombre de la rama: cambia de rama 
+14) $ git merge nombre de la rama: fusiona ramas a la principal
+
