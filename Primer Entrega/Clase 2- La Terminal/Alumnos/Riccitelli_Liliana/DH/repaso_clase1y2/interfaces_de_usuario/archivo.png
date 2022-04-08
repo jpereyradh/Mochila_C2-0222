@@ -1,0 +1,7 @@
+Los interfaces de usuario son:
+1-Interfaz de línea de comandos (CLI): interfaces alfanúmericas (interpretes de comando)  que solo presentan texto .
+2-Interfaz gráfica de usuario (GUI): permiten comunicarse con la computadora de forma rápida e intuitiva representando
+gráficamente los elementos de control y de medida.
+3-Interfaz nativa de usuario (NUI): Pueden ser táctiles, representando gráficamente un "panel de control" en una pantalla
+ sensible al tacto que permite interactuar con el dedo de forma similar a si se accionara un control físico; pueden funcionar
+ mediante reconocimiento del habla, por ejemplo, Siri; o mediante movimientos corporales, como es el caso de Kinect.
