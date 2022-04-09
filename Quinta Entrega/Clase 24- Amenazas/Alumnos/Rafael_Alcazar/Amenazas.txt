@@ -1,0 +1,8 @@
+¿Qué tipo de amenaza es? 
+R: Vyveva es un malware backdoor
+¿Cómo comienza y cómo se propaga esta amenaza? 
+R: Aún se desconoce su vector de compromiso inicial
+ ¿Hay más de una amenaza aplicada? 
+R: No, sólo el backdoor.
+¿Qué solución o medida recomendarían?
+Contar con un antivitrus de primera categoría. No es posible hacer mucho más debido a que aún se desconoce con certeza el método de propagación de esta amenaza
