@@ -1,0 +1,5 @@
+Git es un proyecto de código abierto maduro y con un mantenimiento activo que desarrolló originalmente Linus Torvalds, el famoso creador del kernel del sistema operativo Linux, en 2005.
+
+Microsoft ha comprado GitHub por 7.500 millones de dólares.
+
+Se puede tranajar con GUI o a traves de la pagina
