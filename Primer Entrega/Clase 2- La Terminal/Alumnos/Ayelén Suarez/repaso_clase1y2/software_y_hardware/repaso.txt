@@ -1,0 +1,2 @@
+Software es la parte blanda de la computadora, el encargado de hacer funcionar toda la parte del hardware
+Hardware es la parte dura de una computadora, todo lo que la compone fisicamente. 

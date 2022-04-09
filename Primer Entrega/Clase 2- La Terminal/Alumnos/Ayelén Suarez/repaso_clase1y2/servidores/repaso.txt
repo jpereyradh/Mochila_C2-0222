@@ -1,0 +1,1 @@
+Es el encargado de recibir peticiones y enviar una respuesta al cliente
