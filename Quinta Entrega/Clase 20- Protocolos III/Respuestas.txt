@@ -4,3 +4,8 @@ El video solo lo pude ver utilizando VPN, lo q suscedio es que nos salteamos la 
 esto ocurre ya q los sitios nos manipulan el contenido al q podemos acceder y por eso la libertad es a traves del salteo de restricciones
 
 Usando TOR pudimos ver la IP pero no pudimos localizarla
+
+Sobre el test de velocidad me da error la pagina q me pasaron pero asumo q
+la mas rapida es normal
+luego con vpn
+y la mas lenta es con TOR
