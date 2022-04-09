@@ -1,0 +1,6 @@
+Las IP publicas son diferentes en cada ocasion, Porque no es lo mismo conectarse directamente q a traves de VPN o TOR
+ 
+El video solo lo pude ver utilizando VPN, lo q suscedio es que nos salteamos la restriccion a nuestro pais q tenia el video,
+esto ocurre ya q los sitios nos manipulan el contenido al q podemos acceder y por eso la libertad es a traves del salteo de restricciones
+
+Usando TOR pudimos ver la IP pero no pudimos localizarla
