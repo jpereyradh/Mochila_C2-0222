@@ -1,0 +1,10 @@
+La historia de la informatica tiene sis inicios en 1122 ac. con la invencion del abaco
+Posteriormente en 1642 se crea la calculadora dando paso a la primer estructura de la computadora 
+En 1801 Joseph Marie Jacquard crea un famoso telar mecánico de tarjetas perforadas. 
+Estas permitían que hasta los usuarios más inexpertos pudieran elaborar complejos diseños en una tela.
+1833 y 1842 se crea la primer computadora.
+En 1936 Alan Turin proporcionó una influyente formalización de los conceptos de algoritmo y computación: la máquina de Turing.
+Despues con el proyecto ENIAC (Computador e Integrador Numérico Electrónico), originalmente conocido como “Proyecto PX”, se diseñó y 
+    construyó entre 1943 y 1945 en la escuela Moore, de la Universidad de Pensilvania. En él trabajaron John Mauchly y John Presper Eckert, 
+    junto a un equipo de ingenieros que incluía a Robert F.
+En 1945, el profesor J. von Neumann, emitido en nombre de un grupo de sus compañeros de trabajo un informe sobre el diseño lógico de las computadoras digitales.
