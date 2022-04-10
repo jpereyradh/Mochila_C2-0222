@@ -1,0 +1,5 @@
+1 - En la actualidad ya no hay problemas, antes habia una complicacion en la parte de la 
+compilacion ahora ya existen compiladores q compilan para IOS y Android tipo Flutter
+2 - Es una maquina virtual de sistemas
+3 - No, porque cada maquina virtual es independiente de la otra entonces no se ve afectada 
+
