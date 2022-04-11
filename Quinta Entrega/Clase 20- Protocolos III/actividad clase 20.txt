@@ -1,0 +1,30 @@
+En opera (o cualquier browser sin VPN) debemos consultar nuestra dirección IP pública y anotar:
+
+IP sin VPN: 181.137.31.96
+
+En Opera con VPN activada debemos consultar nuestra IP y consultar su geolocalización (podemos hacerlo desde la pagina cual es mi IP) y anotar:
+
+IP Opera: 77.111.246.40
+
+Con Tor y su red activada debemos consultar nuestra IP y nuestra localización:
+
+IP Tor: 62.102.148.69
+
+Las IP públicas son las mismas? ¿Por qué?
+
+No son las mismas, porque en la primera estamos utilizando una red local y nos muestra nuestra IP real. Con Opera hacemos uso de una Virtual Private Network que nos permite conectarnos sin estar físicamente una red a través de internet. Esta red puede estar en la otra punta del mundo. En el caso de Tor, utiliza un sistema que aleatoriamente asigna redes IP. 
+
+Sin utilizar la VPN puedes ver el video? Ahora activala e intenta de nuevo, que es lo que sucedió? ¿Por qué?
+
+Our systems have detected unusual traffic from your computer network. Please try your request again later. Why did this happen?
+
+
+Utilizando Tor ¿Pudimos localizar la IP?
+
+
+
+
+
+IP address: 185.107.47.171
+Time: 2022-03-31T03:47:57Z
+URL: https://www.youtube.com/watch?v=6_kh4RsBjbI&ab_channel=ZiggoSport

@@ -1,0 +1,151 @@
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5 (master)
+$ git config.user.name "crisgm93"
+git: 'config.user.name' is not a git command. See 'git --help'.
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5 (master)
+$ git config user.name "crisgm93"
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5 (master)
+$ git config user.email "cristot93@gmail.com"
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5 (master)
+$ git clone https://github.com/PatricioCabrera/Intro-Actividad5
+Cloning into 'Intro-Actividad5'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5 (master)
+$ ls
+Intro-Actividad5/
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5 (master)
+$ cd Intro-Actividad5/
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ ls
+Readme.md
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ touch sheldon
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ touch penny
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ touch leonard
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ rm sheldon
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ rm penny
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ rm leonard
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ touch sheldon.txt
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ touch penny.txt
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ touch.leonard.txt
+bash: touch.leonard.txt: command not found
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ touch leonard.txt
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ nano sheldon.txt
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ nano penny.txt
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ nano leonard.txt
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ git add .
+warning: LF will be replaced by CRLF in leonard.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in penny.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in sheldon.txt.
+The file will have its original line endings in your working directory
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ git commit -m "big bang theory"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'cristian@LAPTOP-8JF00C9L.(none)')
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ git config user.name "crisgm93"
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ git config user.email "cristot93@gmail.com"
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ git commit -m "big bang theory"
+[main 6034d5c] big bang theory
+ 3 files changed, 3 insertions(+)
+ create mode 100644 leonard.txt
+ create mode 100644 penny.txt
+ create mode 100644 sheldon.txt
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ git push origin main
+To https://github.com/PatricioCabrera/Intro-Actividad5
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/PatricioCabrera/Intro-Actividad5'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ git pull origin
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 424 bytes | 9.00 KiB/s, done.
+From https://github.com/PatricioCabrera/Intro-Actividad5
+   cd9ebc4..ef39f54  main       -> origin/main
+Merge made by the 'ort' strategy.
+ batman.txt   | 1 +
+ hulk.txt     | 1 +
+ superman.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 batman.txt
+ create mode 100644 hulk.txt
+ create mode 100644 superman.txt
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 767 bytes | 69.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/PatricioCabrera/Intro-Actividad5
+   ef39f54..32c17fb  main -> main
+
+cristian@LAPTOP-8JF00C9L MINGW64 ~/Desktop/tp 5/Intro-Actividad5 (main)
