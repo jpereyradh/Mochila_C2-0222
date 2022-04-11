@@ -1,0 +1,66 @@
+Velocidad con navegador comun :
+
+ PING ms
+10
+ DESCARGA Mbps
+17.06
+ SUBIDA Mbps
+4.33
+
+
+Velocidad con Opera :
+
+ PING ms
+221
+ DOWNLOAD Mbps
+1.43
+ UPLOAD Mbps
+4.64
+Connections
+Multi
+Cox - Wichita
+Wichita, KS
+Change Server
+Opera Mini
+77.111.246.41
+HOW DOES THE CUSTOMER SERVICE OF OPERA MINI COMPARE WITH YOUR EXPECTATIONS?
+
+
+Velocidad con Tor:
+
+
+PING ms
+302
+ DOWNLOAD Mbps
+10.16
+ UPLOAD Mbps
+2.40
+Connections
+Multi
+Telia Norge AS
+Oslo
+Change Server
+TerraHost
+185.243.218.78
+RATE YOUR PROVIDER
+
+
+Respuestas -
+
+Si, las velocidades varian mucho.
+
+En el caso de Tor :
+Al pasar por varios nodos para resguardar nuestra información, la velocidad de respuesta es mucho menor
+
+
+En el caso de uso de VPN :
+
+Al ser método de protección de datos más básico, la velocidad es relativamente normal comparado con TOR.
+
+
+¿Que significa el valor del ping?
+
+El ping es la medida que se ocupa para medir la latencia y es expresado en milisegundos (o en su abreviación ms). Esto significa que a medida que el ping sea más bajo, mejor.
+
+
+Varia el valor del ping entre las diferentes opciones, ya que las que usan intermediarios (nodos), estos aportan latencia. En el caso de una conexion directa el ping es menor.
