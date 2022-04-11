@@ -1,0 +1,21 @@
+Puertos
+
+Zoom: 390.
+Discord: 54103, 53660, 61671.
+Google Meet: 443.
+WhatsApp Web:  443.
+MySQL: 3306.
+Git: 9418.
+Secure Sockets Layer (SSL): 465.
+HTTP: 80.
+VirtualBox: 2222.
+VPN: 1194.
+Microsoft Outlook: 993.
+File Transfer Protocol (FTP): 22.
+Microsoft Word: 8530, 8531, 80, 443.
+Skype: 443, 3478, 3481, 50000,60000.
+Epic Games: 80, 433, 443, 3478, 3479, 5060, 5062, 5222, 6250, 12000, 65000.
+Fifa 21: 1935, 3478-3480, 3659, 10000-10099, 42127. UDP: 3074, 3478-3479, 3659, 6000.
+Spotify: 80, 443, 445, 1400, 3400, 3401, 3445, 3500, 4070.
+TeamViewer: 5938.
+Netflix:443.

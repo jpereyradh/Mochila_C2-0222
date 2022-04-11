@@ -1,0 +1,2 @@
+El VSC es un IDE, es decir que nos provee de herramientas que facilitan la creación y el desarrollo de nuestros programas o aplicaciones.
+El Git Bash se trata de una aplicación de terminal que se utiliza como interfaz con un sistema operativo mediante comandos escritos (CLI)

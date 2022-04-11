@@ -1,0 +1,1 @@
+La interfaz de usuario (UI) es el punto de interacción y comunicación humano-computadora en un dispositivo
