@@ -1,0 +1,15 @@
+Windows Emulator Online
+
+-entorno de escritorio al estilo de Windows en Ubuntu. Aquí no se trata de una imitación perfecta de Windows, sino de una evidencia sobre cómo crear una interfaz que se parezca y funcione más como Windows.
+
+Esto es posible porque el escritorio de GNOME Shell admite extensiones, que pueden cambiar drásticamente el diseño del escritorio y agregar varias otras características. Incluso si no desea utilizar un escritorio al estilo de Windows, este es un buen ejemplo de lo potentes que son las extensiones y los temas de GNOME Shell. Puede usar GNOME Shell Extensions, la aplicación GNOME Tweaks y temas para personalizar su escritorio de muchas maneras diferentes.
+
+-Es open Source
+
+- Requisitos
+
+	SO: WINDOWS 7 / WINDOWS 8 / WINDOWS 10.
+	Procesador: Any 64 ó 32 bit Procesador.
+	Memoria: 4 GB de RAM.
+	Gráficos: DirectX ó OpenGL Compatable Video Card.
+	Almacenamiento: 300 MB de espacio disponible.

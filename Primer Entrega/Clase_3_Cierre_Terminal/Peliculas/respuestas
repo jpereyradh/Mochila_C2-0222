@@ -1,0 +1,4 @@
+2- Si, "mkdir Infantiles Accion Terror Comedia Romanticas"
+3- si, "touch Infantiles/{pelicula1.txt, pelicula2.pdf,pelicula3.xls}
+4- mkdir Romaticas/ Infantiles
+5- mkdir ../Accion Prueba2
