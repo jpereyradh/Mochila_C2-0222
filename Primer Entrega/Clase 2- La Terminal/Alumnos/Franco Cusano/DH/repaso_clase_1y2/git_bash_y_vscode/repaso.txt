@@ -1,0 +1,3 @@
+Git Bash: Es una aplicacacion que nos permite utilizar la  consola, la cual va a recibir nuestras instrucciones mediante codigo mediante comandos CLI 
+
+Visual Estudio Code: IDE (entorno de desarrollo integrado) que nos va permitir crear y desarrollar programas o aplicaciones, mediante codigo

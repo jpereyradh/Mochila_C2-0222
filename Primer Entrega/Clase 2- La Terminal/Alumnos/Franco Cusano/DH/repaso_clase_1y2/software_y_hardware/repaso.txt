@@ -1,0 +1,3 @@
+Hardware: Es la parte física del dispositivo. Es todo lo que se puede tocar. Existen básicamente 3 tipos. De entrada, salida e internos. El hardware de entrada son aquellos componentes que permiten el ingreso de información. El de salida permiten dar salida a la información realizada por la CPU. Internos forman parte del dispositivo de cara al funcionamiento.
+
+Software: Software se conoce al conjunto de los componentes lógicos que hacen posible la realización de tareas específicas. Gestionan el hardware.

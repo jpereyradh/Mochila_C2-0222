@@ -1,0 +1,419 @@
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio
+$ git init
+Initialized empty Git repository in C:/Users/Administrador/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio/.git/
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git user.name
+git: 'user.name' is not a git command. See 'git --help'.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la in
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git remote add origin https://github.com/Francotc2013/trabajo5.git
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ echo "# trabajo5" >> README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ ls
+README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git commit -m "Readme"
+[main (root-commit) 82b683d] Readme
+ 1 file changed, 1 insertion(+)    
+ create mode 100644 README.md      
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 218 bytes | 218.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0        
+To https://github.com/Francotc2013/trabajo5.git
+ * [new branch]      main -> main
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ touch homero.txt marge.txt lisa.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ ls
+homero.txt  lisa.txt  marge.txt  README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git add .
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git commmit -m "simp1"
+git: 'commmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git commit -m "simp1"
+[main f124d3e] simp1
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 homero.txt
+ create mode 100644 lisa.txt
+ create mode 100644 marge.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 285 bytes | 285.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Francotc2013/trabajo5.git
+   82b683d..f124d3e  main -> main
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin main
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 1), reused 4 (delta 1), pack-reused 0
+Unpacking objects: 100% (4/4), 543 bytes | 41.00 KiB/s, done.
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+   f124d3e..a7a8fcb  main       -> origin/main
+Updating f124d3e..a7a8fcb
+Fast-forward
+ Bart.txt   | 0
+ Maguie.txt | 0
+ Moe.txt    | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Bart.txt
+ create mode 100644 Maguie.txt
+ create mode 100644 Moe.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ ls
+Bart.txt  homero.txt  lisa.txt  Maguie.txt  marge.txt  Moe.txt  README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ nano homero.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ nano lisa.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ nano marge.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ ls -R
+.:
+Bart.txt  homero.txt  lisa.txt  Maguie.txt  marge.txt  Moe.txt  README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ ls -a
+./  ../  .git/  Bart.txt  homero.txt  lisa.txt  Maguie.txt  marge.txt  Moe.txt  README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat lisa.txt 
+es la saxofonista de la familia
+
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat m
+cat: m: No such file or directory
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat m
+Maguie.txt  marge.txt   Moe.txt     
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat marge.txt 
+Tiene el pelo largo
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat homero.txt 
+es el gordo de la familia
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin main
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ ls
+Bart.txt  homero.txt  lisa.txt  Maguie.txt  marge.txt  Moe.txt  README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat marge.txt 
+Tiene el pelo largo
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin main
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat Bart.txt 
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin main
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 460 bytes | 21.00 KiB/s, done.
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+   a7a8fcb..1ced6d8  main       -> origin/main
+error: Your local changes to the following files would be overwritten by merge:
+        marge.txt
+Please commit your changes or stash them before you merge.
+Aborting
+Updating a7a8fcb..1ced6d8
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ ls
+Bart.txt  homero.txt  lisa.txt  Maguie.txt  marge.txt  Moe.txt  README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat Bart.txt 
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin main
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+        marge.txt
+Please commit your changes or stash them before you merge.
+Aborting
+Updating a7a8fcb..1ced6d8
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git add .
+warning: LF will be replaced by CRLF in homero.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lisa.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in marge.txt.
+The file will have its original line endings in your working directory
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git commit -m "paramerg"
+[main 3b5d73a] paramerg
+ 3 files changed, 4 insertions(+)
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin main
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+Auto-merging marge.txt
+CONFLICT (content): Merge conflict in marge.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main|MERGIN
+$ ls
+Bart.txt  homero.txt  lisa.txt  Maguie.txt  marge.txt  Moe.txt  README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main|MERGIN
+$ cat Bart.txt
+Hermano mayor
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main|MERGIN
+$ nano Bart.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main|MERGIN
+$ cat homero.txt 
+es el gordo de la familia
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main|MERGIN
+$ git add . 
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main|MERGIN
+$ git commit -m "paramerg2"
+[main 8d3ed6a] paramerg2
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git push origin main
+Enumerating objects: 19, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 946 bytes | 473.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Francotc2013/trabajo5.git
+   1ced6d8..8d3ed6a  main -> main
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin main
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git puss origin main
+git: 'puss' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git push origin main
+Everything up-to-date
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ ls
+Bart.txt  homero.txt  lisa.txt  Maguie.txt  marge.txt  Moe.txt  README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat Bart.txt
+Hermano mayor
+
+Es revoltoso
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat Maguie.txt
+hermana menor
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ nano ma
+Maguie.txt  marge.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ nano Maguie.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat Maguie.txt
+hermana menor
+simpre tiene su chupete
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ nano Moe.txt
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat Moe.txt
+Barman
+
+Pone a todos borrachos
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git add .
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git commit -m "simpact"
+[main 745872c] simpact
+ 2 files changed, 3 insertions(+)
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 367 bytes | 367.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Francotc2013/trabajo5.git
+   8d3ed6a..745872c  main -> main
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin main
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 1), reused 5 (delta 1), pack-reused 0
+Unpacking objects: 100% (5/5), 484 bytes | 30.00 KiB/s, done.
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+   745872c..cc8d674  main       -> origin/main
+Updating 745872c..cc8d674
+Fast-forward
+ homero.txt | 1 +
+ lisa.txt   | 1 +
+ marge.txt  | 5 +----
+ 3 files changed, 3 insertions(+), 4 deletions(-)
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ ls 
+Bart.txt  homero.txt  lisa.txt  Maguie.txt  marge.txt  Moe.txt  README.md
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ cat Bart.txt 
+Hermano mayor
+
+Es revoltoso
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git add .
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git commit -m "simptodo"
+On branch main
+nothing to commit, working tree clean
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git push origin main
+Everything up-to-date
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git branch franco
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git cheackout franco
+git: 'cheackout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin main
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git pull origin Santi1
+From https://github.com/Francotc2013/trabajo5
+ * branch            Santi1     -> FETCH_HEAD   
+ * [new branch]      Santi1     -> origin/Santi1
+Already up to date.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ git checkout Santi1
+Switched to a new branch 'Santi1'
+branch 'Santi1' set up to track 'origin/Santi1'.
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (Santi1)
+$ git checkout franco
+Switched to branch 'franco'
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (franco)
+$ git push origin franco
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'franco' on GitHub by visiting:
+remote:      https://github.com/Francotc2013/trabajo5/pull/new/franco
+remote:
+To https://github.com/Francotc2013/trabajo5.git
+ * [new branch]      franco -> franco
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (franco)
+$ git checkout main
+Switched to branch 'main'
+
+Administrador@DESKTOP-O652UE7 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/5/nuevoEjercicio (main)
+$ touch FrancoCodigo.txt

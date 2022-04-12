@@ -1,0 +1,320 @@
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5 (main)
+$ pwd
+/c/Users/silvi/Ejercicio_5
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5 (main)
+$ git clone https://github.com/Francotc2013/trabajo5.git
+Cloning into 'trabajo5'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5 (main)
+$ ls
+trabajo5/
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5 (main)
+$ cd Ejercicio_5
+bash: cd: Ejercicio_5: No such file or directory
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5 (main)
+$ cd trabajo5
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ ls
+README.md
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ touch Bart.txt Maguie.txt Moe.txt 
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git add .
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git commit -m "commit 1"
+[main 6e78cc4] commit 1
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Bart.txt
+ create mode 100644 Maguie.txt
+ create mode 100644 Moe.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git pull origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 265 bytes | 6.00 KiB/s, done.
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+   82b683d..f124d3e  main       -> origin/main
+Merge made by the 'ort' strategy.
+ homero.txt | 0
+ lisa.txt   | 0
+ marge.txt  | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 homero.txt
+ create mode 100644 lisa.txt
+ create mode 100644 marge.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ ls
+Bart.txt  homero.txt  lisa.txt  Maguie.txt  marge.txt  Moe.txt  README.md
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git add .
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git commit -m "commit 2" 
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 563 bytes | 93.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Francotc2013/trabajo5.git
+   f124d3e..a7a8fcb  main -> main
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano Bart.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat Bart.txt
+Hermano mayor
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano m
+Maguie.txt  marge.txt   Moe.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano Maguie.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano marge.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano Moe.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat Moe.txt 
+Barman
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git push origin main
+Everything up-to-date
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git add .
+warning: LF will be replaced by CRLF in Bart.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Maguie.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Moe.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in marge.txt.
+The file will have its original line endings in your working directory
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git commit -m "commit 3"
+[main 1ced6d8] commit 3
+ 4 files changed, 4 insertions(+)
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git push origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 480 bytes | 120.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Francotc2013/trabajo5.git
+   a7a8fcb..1ced6d8  main -> main
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano Bart.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano homero.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git pull origin main
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat homero.txt 
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git pull origin main
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 9 (delta 1), reused 9 (delta 1), pack-reused 0
+Unpacking objects: 100% (9/9), 926 bytes | 6.00 KiB/s, done.
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+   1ced6d8..8d3ed6a  main       -> origin/main
+Updating 1ced6d8..8d3ed6a
+Fast-forward
+ Bart.txt   | 2 ++
+ homero.txt | 1 +
+ lisa.txt   | 2 ++
+ marge.txt  | 4 ++++
+ 4 files changed, 9 insertions(+)
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat homero.txt
+es el gordo de la familia
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano homero.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat homero.txt
+es el gordo de la familia, y el personaje mas carismático de la serie
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat lisa.txt
+es la saxofonista de la familia
+
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano lisa.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano homero.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano m
+Maguie.txt  marge.txt   Moe.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ nano marge.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat homero.txt 
+es el gordo de la familia
+ personaje mas carismático de la serie
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat lisa.txt 
+es la saxofonista de la familia
+hermana del medio
+
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat marge.txt 
+Tiene el pelo largo
+Es la madre de los Simpsons
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git pull origin main
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 4 (delta 1), reused 4 (delta 1), pack-reused 0
+Unpacking objects: 100% (4/4), 347 bytes | 4.00 KiB/s, done.
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+   8d3ed6a..745872c  main       -> origin/main
+Updating 8d3ed6a..745872c
+Fast-forward
+ Maguie.txt | 1 +
+ Moe.txt    | 2 ++
+ 2 files changed, 3 insertions(+)
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ cat Bart.txt 
+Hermano mayor
+
+Es revoltoso
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git add .
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git commit -m "commit 4"
+[main cc8d674] commit 4
+ 3 files changed, 3 insertions(+), 4 deletions(-)
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 504 bytes | 45.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Francotc2013/trabajo5.git
+   745872c..cc8d674  main -> main
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git pull
+Already up to date.
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git pull origin main
+From https://github.com/Francotc2013/trabajo5
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git branch
+* main
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git checkout
+Your branch is up to date with 'origin/main'.
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git branch Santi1
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git checkout Santi1
+Switched to branch 'Santi1'
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (Santi1)
+$ git push origin Santi1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Santi1' on GitHub by visiting:
+remote:      https://github.com/Francotc2013/trabajo5/pull/new/Santi1
+remote:
+To https://github.com/Francotc2013/trabajo5.git
+ * [new branch]      Santi1 -> Santi1
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (Santi1)
+$ fit checkout main
+bash: fit: command not found
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (Santi1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ git pull origin franco
+From https://github.com/Francotc2013/trabajo5
+ * branch            franco     -> FETCH_HEAD
+ * [new branch]      franco     -> origin/franco
+Already up to date.
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$ touch SantiCodigo.txt
+
+silvi@DESKTOP-6BF9UA6 MINGW64 ~/Ejercicio_5/trabajo5 (main)
+$

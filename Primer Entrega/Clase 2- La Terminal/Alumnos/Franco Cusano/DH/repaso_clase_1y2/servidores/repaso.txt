@@ -1,0 +1,1 @@
+Servidores: El servidor es que va a dar una Response a las Request del cliente. El servidor es donde se almacenan los datos que, una vez pedido por los clientes, el mismo genera una respuesta, que se le devuelve al cliente.
