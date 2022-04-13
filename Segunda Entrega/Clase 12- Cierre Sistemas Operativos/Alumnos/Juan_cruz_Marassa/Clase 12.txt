@@ -1,0 +1,48 @@
+Introducción a la informática - Clase 12 - Máquina Virtual
+
+Crear un archivo en Google Documents o Word en la computadora. 
+Investigar y contestar las siguientes preguntas. ¿Que es un usuario root en Linux? ¿Por qué ubuntu no me deja establecer la contraseña durante la instalación? ¿Cuáles son los procesos típicos de Linux?¿Cómo identificarlos?.
+Investigar y establecer una contraseña para el usuario root. 
+Subir el documento de manera individual en la mochila. 
+
+El usuario root de un sistema operacional GNU/Linux es el administrador del mismo. Él tiene los permisos necesarios para realizar cualquier tipo de tarea. permisos para añadir nuevos usuarios, instalar aplicaciones, configurar dispositivos, etc. Los usuarios comunes en cambio, no tienen permisos para instalar programas o escribir en los directorios de sistema. Por lo tanto, para realizar cualquier acción que necesite permisos de root, deben usar sudo ó su. Si queremos convertirnos en administradores del sistema (root) escribimos:
+
+No deja configurar una contraseña para que no sea posible entrar al root en la misma instalación, ya que si entramos en este y ejecutamos lo mismo, estamos expuestos a cualquier malware que pueda acceder al control del hardware y pueda malograr toda nuestra maquina o información. Por ejemplo, estamos expuestos a que instale un keylogger o un troyano.
+
+Un proceso se refiere a un programa en ejecución; es una instancia en ejecución de un programa. Se compone de la instrucción del programa, los datos leídos de archivos, otros programas o la entrada de un usuario del sistema.
+D Uninterruptible sleep – Espera ininterrumpible, generalmente el proceso se encuentra esperando una operación de entrada/salida con algún dispositivo. 
+R Running – Corriendo, el proceso se encuentra corriendo en el procesador. 
+S Interruptible sleep, espera interrumpible, el proceso se encuentra esperando a que se cumpla algún evento, por ejemplo, que el planificador de procesos del kernel lo planifique para su ejecución. 
+T Stopped, detenido, un proceso que ha sido detenido mediante el envío de alguna señal generalmente. 
+Z Defunct (“zombie”) process, proceso terminado, pero cuyo padre aún sigue «vivo» y no ha capturado el estado de terminación del proceso hijo, y por consiguiente, no lo ha eliminado de la tabla de procesos del sistema. En definitiva, un proceso zombie es un proceso que «murió», pero «sigue estando» en la tabla de procesos del sistema. En algún otro artículo hablaremos específicamente de estados de procesos, zombies, y cómo detectarlos.
+
+
+ 
+ 
+Existen fundamentalmente dos tipos de procesos en Linux:
+Procesos en primer plano (también denominados procesos interactivos): estos se inicializan y controlan a través de una sesión de terminal. En otras palabras, tiene que haber un usuario conectado al sistema para iniciar dichos procesos; no se han iniciado automáticamente como parte de las funciones/servicios del sistema.
+Procesos en segundo plano (también denominados procesos automáticos/no interactivos): son procesos que no están conectados a una terminal; no esperan ninguna entrada del usuario.
+Estos son tipos especiales de procesos en segundo plano que comienzan al inicio del sistema y continúan ejecutándose para siempre como servicio; no mueren. Se inician como tareas del sistema (se ejecutan como servicios), de forma espontánea. Sin embargo, un usuario puede controlarlos a través del proceso de inicio.
+Creación de un proceso en Linux
+Normalmente, se crea un nuevo proceso cuando un proceso existente hace una copia exacta de sí mismo en la memoria. El proceso hijo tendrá el mismo entorno que su padre, pero solo el número de identificación del proceso es diferente.
+Hay dos formas convencionales que se utilizan para crear un nuevo proceso en Linux:
+Uso de la función System(): este método es relativamente simple, sin embargo, es ineficiente y tiene riesgos de seguridad significativamente determinados.
+Uso de la función fork() y exec(): esta técnica es un poco avanzada pero ofrece mayor flexibilidad, velocidad y seguridad.
+¿Cómo identifica Linux los procesos?
+Debido a que Linux es un sistema multiusuario, lo que significa que diferentes usuarios pueden ejecutar varios programas en el sistema, cada instancia en ejecución de un programa debe ser identificada de forma única por el kernel.
+Y un programa se identifica por su ID de proceso (PID), así como su ID de proceso principal (PPID), por lo tanto, los procesos se pueden clasificar en:
+Procesos principales: estos son procesos que crean otros procesos durante el tiempo de ejecución.
+Procesos secundarios: estos procesos son creados por otros procesos durante el tiempo de ejecución.
+El proceso de inicialización es la madre (padre) de todos los procesos del sistema, es el primer programa que se ejecuta cuando se inicia el sistema Linux; gestiona todos los demás procesos del sistema. Lo inicia el propio kernel, por lo que, en principio, no tiene un proceso padre.
+El proceso init siempre tiene el ID de proceso 1. Funciona como padre adoptivo para todos los procesos huérfanos.passud
+Process ID (PID) Número único identificador del proceso. El número es importante para gestionar el proceso. Los PID son asignados por el sistema. Se trata de un correlativo, iniciando desde cero, y creciente.
+Parent Process ID (PPID) Los procesos a su vez pueden crear sub-procesos (procesos hijos – child process). Un proceso puede tener varios procesos hijo. Un proceso hijo sólo tendrá un padre. El PPID de un proceso es el PID de su proceso padre.
+UID y EUID User ID (UID) Identifica al creador del proceso (usuario que lo ejecutó). Este usuario y root son los únicos que pueden modificar al proceso. Effective User ID (EUID) Determina si el proceso tiene permiso para acceder a archivos y otros recursos del sistema.
+GID y EGID: Group ID (GID) Igual que el UID pero para grupos de usuarios. Se hereda del proceso padre. Effective Group ID (EGID) Permite controlar el acceso del proceso a archivos.
+ 
+Abre la Terminal (Control + Alt + T)
+Teclea (sin comillas) "sudo su"
+Introduce tu clave actual
+Teclea "passwd root" y escribe tu nueva clave
+Pulsa enter y cierra la terminal
+
