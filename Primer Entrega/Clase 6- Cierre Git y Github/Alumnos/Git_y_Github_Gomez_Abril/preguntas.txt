@@ -1,3 +1,0 @@
-a.Linus Torvalds inventó el control de versión Git porque quería facilitar el trabajo cuando se tiene un gran número de archivos de código fuente, lo que permitiría una gran eficiencia, confiabilidad y compatibilidad de estas versiones.
-b.Actualmente GitHub pertenece a Microsoft ya que con el control de esta plataforma se hace la comunidad de desarrollo más nutrida del planeta.
-c.Otra forma que no sea la terminal para trabajar con GitHub es manualmente.
