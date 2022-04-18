@@ -1,0 +1,3 @@
+1. Linus Torvalds, para reemplazar a BitKeeper
+2. GitHub es de Microsoft, despues de su adquisicion en 2018
+3. Desde la web, o desde visual studio code
